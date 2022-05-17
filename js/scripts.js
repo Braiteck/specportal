@@ -288,6 +288,29 @@ $(() => {
 	})
 
 
+	$('.ad_add .form .with_tips').keydown(function () {
+		let _self = $(this),
+			parent = $(this).closest('.line')
+
+		setTimeout(() => {
+			if (_self.val().length > 0) {
+				parent.find('.tips .scrollbar > *').hide()
+				parent.find('.tips .scrollbar > *:contains("' + $(this).val() + '")').show()
+				parent.find('.tips').addClass('show')
+			} else {
+				parent.find('.tips').removeClass('show')
+			}
+		})
+	})
+
+	$('.form .tips .tip').click(function () {
+		let parent = $(this).closest('.line')
+
+		parent.find('.input').val($(this).text())
+		parent.find('.tips').removeClass('show')
+	})
+
+
 	// Календарь
 	moment.locale('ru', {
 		months: ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь']

@@ -8,7 +8,8 @@
 }
 
 /* For IE */
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none)
+@media screen and (-ms-high-contrast: active),
+(-ms-high-contrast: none)
 {
     .supports_error
     {
@@ -88,7 +89,7 @@ button
 :hover,
 :active
 {
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     -webkit-touch-callout: none;
 }
 
@@ -859,7 +860,7 @@ button
 --------------*/
 .fancybox__backdrop
 {
-    background: rgba(20,20,20,.45);
+    background: rgba(20, 20, 20, .45);
 }
 
 
@@ -3431,7 +3432,7 @@ aside .filter .submit
 }
 
 
-aside .filter  .reset_btn
+aside .filter .reset_btn
 {
     color: #4654b6;
     font-size: 16px;
@@ -3449,7 +3450,7 @@ aside .filter  .reset_btn
     border-radius: 4px;
 }
 
-aside .filter  .reset_btn:hover
+aside .filter .reset_btn:hover
 {
     color: #fff;
 
@@ -3877,6 +3878,11 @@ aside .products .product
     background: var(--form_bg_color);
 }
 
+.form .input.with_tips
+{
+    padding-right: 51px;
+}
+
 .form .input:-webkit-autofill
 {
     -webkit-box-shadow: inset 0 0 0 50px var(--form_bg_color) !important;
@@ -3919,6 +3925,93 @@ aside .products .product
 .form .error + .nice-select .current
 {
     border-color: var(--form_error_color);
+}
+
+
+.form .tips
+{
+    position: absolute;
+    z-index: 11;
+    top: calc(100% + 30px);
+    left: 0;
+
+    visibility: hidden;
+    overflow: hidden;
+
+    width: 100%;
+    padding: 4px 0;
+
+    transition: .2s linear;
+
+    opacity: 0;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(20, 20, 20, .1);
+}
+
+.form .tips.show
+{
+    top: calc(100% + 4px);
+
+    visibility: visible;
+
+    opacity: 1;
+}
+
+
+.form .tips .scrollbar
+{
+    overflow: auto;
+
+    max-height: 240px;
+}
+
+
+.form .tips .tip
+{
+    color: #4654b6;
+    font-weight: 500;
+    line-height: 100%;
+
+    position: relative;
+
+    padding: 8px 36px 8px 16px;
+
+    cursor: pointer;
+    transition: background .2s linear;
+}
+
+.form .tips .tip:after
+{
+    position: absolute;
+    top: -3px;
+    right: 10px;
+    bottom: 0;
+
+    display: block;
+
+    width: 12px;
+    height: 7px;
+    margin: auto;
+
+    content: '';
+    transition: opacity .2s linear;
+    transform: rotate(-45deg);
+
+    opacity: 0;
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+}
+
+.form .tips .tip:hover,
+.form .tips .tip.selected
+{
+    background: #f8f9fb;
+}
+
+.form .tips .tip.selected:after
+{
+    opacity: 1;
 }
 
 
@@ -15077,7 +15170,8 @@ footer .links a
 
 
 
-@media print, (max-width: 1399px)
+@media print,
+(max-width: 1399px)
 {
     .main_slider .slide .info
     {
