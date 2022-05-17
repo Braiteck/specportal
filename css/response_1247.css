@@ -1,0 +1,1464 @@
+@media print, (max-width: 1247px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --sidebar_width: 264px;
+        --font_size_title: 25px;
+    }
+
+
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+    .swiper-button-prev
+    {
+        left: 8px;
+    }
+
+    .swiper-button-next
+    {
+        right: 8px;
+    }
+
+
+
+    .tablet_hide
+    {
+        display: none;
+    }
+
+
+
+    /*----------
+        Tabs
+    ----------*/
+    .tabs button
+    {
+        font-size: 15px;
+
+        max-width: calc(100% - 32px);
+        margin-left: 32px;
+    }
+
+
+
+    /*--------------
+        All link
+    --------------*/
+    .all_link a
+    {
+        margin-top: 16px;
+        padding: 16px;
+    }
+
+
+
+    /*----------------
+        Pagination
+    ----------------*/
+    .pagination .links a,
+    .pagination .links .sep
+    {
+        line-height: 50px;
+
+        width: 52px;
+        height: 52px;
+    }
+
+    .pagination .links .sep ~ *
+    {
+        display: none;
+    }
+
+    .pagination .links .visible
+    {
+        display: block;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion .accordion_item .head
+    {
+        padding: 16px 64px 16px 24px;
+    }
+
+
+    .accordion .accordion_item .head .title
+    {
+        font-size: 20px;
+    }
+
+
+    .accordion .accordion_item .head > .icon
+    {
+        right: 12px;
+    }
+
+    .accordion .accordion_item .head > .icon > *
+    {
+        width: 20px;
+        height: 12px;
+    }
+
+
+    .accordion .accordion_item .data
+    {
+        padding: 24px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 32px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .info
+    {
+        padding: 12px 0;
+    }
+
+
+    header .bottom
+    {
+        padding: 8px 0;
+    }
+
+
+    header .search
+    {
+        width: calc(100% - 520px);
+    }
+
+
+    header .location,
+    header .links
+    {
+        margin-left: 32px;
+    }
+
+
+    header .menu .item + .item
+    {
+        margin-left: 28px;
+    }
+
+
+    header .btns > * + *
+    {
+        margin-left: 12px;
+    }
+
+    header .btns .btn
+    {
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+    aside .block_head
+    {
+        margin-bottom: 20px;
+    }
+
+    aside .block_head .title
+    {
+        font-size: 22px;
+
+        min-height: 30px;
+    }
+
+
+
+    aside .place_banner_link
+    {
+        font-size: 15px;
+    }
+
+    aside .place_banner_link .icon
+    {
+        width: 44px;
+        height: 44px;
+        margin-right: 16px;
+    }
+
+
+
+    aside .links a
+    {
+        font-size: 15px;
+
+        padding: 10px 20px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head .ad_add_category
+    {
+        padding-right: 36px;
+    }
+
+    .page_head .ad_add_category .nice-select ~ .select_arrow
+    {
+        width: 30px;
+        height: 30px;
+    }
+
+    .page_head .ad_add_category .nice-select ~ .select_arrow > *
+    {
+        position: relative;
+        top: 2px;
+
+        width: 18px;
+        height: 11px;
+    }
+
+
+
+    .page_head .btns .actions .mini_modal
+    {
+        top: calc(100% + 32px);
+        right: 0;
+        bottom: auto;
+        left: auto;
+
+        margin: 0;
+    }
+
+    .page_head .btns .actions .mini_modal.active
+    {
+        top: calc(100% + 10px);
+        bottom: auto;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 20px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form
+    {
+        --form_label_width: 220px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider .slide .cont
+    {
+        min-height: 380px;
+        padding-bottom: 76px;
+    }
+
+
+    .main_slider .slide .sticker
+    {
+        margin-bottom: 20px;
+    }
+
+    .main_slider .slide .title
+    {
+        font-size: 38px;
+    }
+
+    .main_slider .slide .desc
+    {
+        font-size: 16px;
+    }
+
+
+    .main_slider .slide .img
+    {
+        margin-right: -684px;
+    }
+
+
+
+    /*---------
+        Ads
+    ---------*/
+    .ads .ad
+    {
+        padding: 20px;
+    }
+
+
+    .ads .ad .thumb
+    {
+        width: 240px;
+        height: 216px;
+    }
+
+    .ads .ad .images
+    {
+        width: 240px;
+    }
+
+
+    .ads .ad .images + .info,
+    .ads .ad .thumb + .info
+    {
+        width: calc(100% - 264px);
+    }
+
+
+    .ads .ad .info > .sticker
+    {
+        margin-bottom: 12px;
+    }
+
+
+    .ads .ad .info > .title
+    {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+
+    .ads .ad .info > .price
+    {
+        font-size: 20px;
+    }
+
+    .ads .ad .info > .price .sep
+    {
+        height: 16px;
+        margin: 0 12px;
+    }
+
+
+    .ads .ad .info > .links
+    {
+        width: calc(100% + 24px);
+        margin-top: 8px;
+        margin-left: -24px;
+    }
+
+
+    .ads .ad .info > .btns > *
+    {
+        width: calc(50% - 4px);
+    }
+
+
+    .ads .ad .info > .btns .btn
+    {
+        font-size: 15px;
+
+        padding: 12px;
+    }
+
+
+    .ads .ad .info > .btns .call_info .phone
+    {
+        font-size: 22px;
+    }
+
+
+    .ads .ad > .orders_count
+    {
+        right: 20px;
+        bottom: 116px;
+    }
+
+
+    .ads .ad > .actions
+    {
+        right: 20px;
+        bottom: 20px;
+    }
+
+    .ads .ad > .actions .btn
+    {
+        font-size: 15px;
+
+        padding: 12px 24px;
+    }
+
+
+    .ads .ad > .ststus
+    {
+        top: 18px;
+        right: 20px;
+
+        width: 132px;
+    }
+
+    .ads .ad > .ststus .val
+    {
+        font-size: 17px;
+    }
+
+
+    .ads .ad > .delete_btn
+    {
+        right: 20px;
+        bottom: 18px;
+    }
+
+
+
+    .ads .ad .thumb.mini + .info
+    {
+        max-width: calc(100% - 340px);
+        margin-left: 16px;
+    }
+
+
+    .ads .ad .thumb.mini + .info > .price
+    {
+        font-size: 17px;
+    }
+
+
+    .ads .ad .info > .dates
+    {
+        margin-left: 0;
+    }
+
+    .ads .ad .info > .dates > *
+    {
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .ads .ad .info > .dates > * + *
+    {
+        margin-top: 8px;
+    }
+
+
+
+    /*-------------
+        Catalog
+    -------------*/
+    .catalog .row
+    {
+        margin-bottom: -20px;
+    }
+
+    .catalog .row > *
+    {
+        width: calc(50% - 20px);
+        margin-bottom: 20px;
+    }
+
+
+    .catalog .category .info
+    {
+        padding: 20px 24px;
+    }
+
+    .catalog .category .name
+    {
+        font-size: 17px;
+    }
+
+    .catalog .category .count
+    {
+        margin-top: 8px;
+        padding-top: 12px;
+    }
+
+
+
+    .content .catalog .category .info
+    {
+        padding: 12px 16px;
+    }
+
+    .content .catalog .category .name
+    {
+        font-size: 15px;
+    }
+
+
+
+    /*---------------
+        Companies
+    ---------------*/
+    .companies .row > *
+    {
+        width: calc(20% - 20px);
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .row > *.tablet_hide
+    {
+        display: block;
+    }
+
+
+    .articles .article .info
+    {
+        padding: 24px;
+    }
+
+    .articles .article .name
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*-----------------
+        About block
+    -----------------*/
+    .about_block
+    {
+        padding: 40px 0;
+    }
+
+
+    .about_block .block_head
+    {
+        max-width: calc(100% - 490px);
+    }
+
+
+    .about_block img
+    {
+        width: 440px;
+    }
+
+
+
+    /*----------------
+        Order form
+    ----------------*/
+    .order_form
+    {
+        padding: 64px 0;
+    }
+
+
+    .order_form .block_head
+    {
+        width: 572px;
+    }
+
+
+
+    /*------------------
+        Product info
+    ------------------*/
+    .product_info .images .thumbs
+    {
+        width: 80px;
+    }
+
+
+    .product_info .images .big
+    {
+        width: calc(100% - 96px);
+    }
+
+    .product_info .images .big .slide a
+    {
+        padding-bottom: 72%;
+    }
+
+
+    .product_info .images + .data .price
+    {
+        font-size: 22px;
+    }
+
+
+    .product_info .accordion .data .title
+    {
+        font-size: 17px;
+        line-height: 130%;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products .product .info
+    {
+        padding: 0 20px 20px;
+    }
+
+
+    .products .product .btns .btn
+    {
+        font-size: 15px;
+
+        padding: 12px 16px;
+    }
+
+    .products .product .btns .btn.orange
+    {
+        width: 112px;
+    }
+
+
+
+    /*-------------
+        LK info
+    -------------*/
+    .lk_info .add_ad_btn
+    {
+        padding: 15px;
+    }
+
+
+
+    /*--------------
+        Ads head
+    --------------*/
+    .ads_head .total_count
+    {
+        display: none;
+    }
+
+
+
+    /*--------------------
+        Ads categories
+    --------------------*/
+    .ads_categories .accordion_item .head
+    {
+        font-size: 14px;
+        line-height: 24px;
+
+        padding: 12px 60px 12px 16px;
+    }
+
+    .ads_categories .accordion_item .head .title
+    {
+        font-size: inherit;
+        font-weight: 700;
+        line-height: inherit;
+    }
+
+    .ads_categories .accordion_item .head .icon > *
+    {
+        width: 18px;
+        height: 9px;
+    }
+
+
+
+    /*------------
+        Ad add
+    ------------*/
+    .ad_add .form .section .head
+    {
+        padding: 14px 24px;
+    }
+
+    .ad_add .form .section .head .title
+    {
+        font-size: 20px;
+    }
+
+
+    .ad_add .form .section > .data
+    {
+        padding: 24px;
+    }
+
+
+    .ad_add .form .add_btn
+    {
+        padding: 15px;
+    }
+
+
+    .ad_add .form_nav button
+    {
+        font-size: 15px;
+
+        padding: 10px 20px;
+    }
+
+
+
+    /*--------------------
+        Ad add success
+    --------------------*/
+    .ad_add_success .more_clients
+    {
+        padding: 28px 32px;
+    }
+
+
+    .ad_add_success .more_clients .title
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*-------------
+        Ad info
+    -------------*/
+    .ad_info .orders .order
+    {
+        padding: 20px;
+    }
+
+
+    .ad_info .orders .order .date .val
+    {
+        font-size: 16px;
+    }
+
+
+    .ad_info .orders .order .contacts
+    {
+        width: 172px;
+        min-width: 172px;
+    }
+
+    .ad_info .orders .order .contacts .phone
+    {
+        font-size: 16px;
+    }
+
+
+    .ad_info .orders .order .description
+    {
+        max-width: calc(100% - 560px);
+    }
+
+
+    .ad_info .orders .order .status
+    {
+        width: 200px;
+        min-width: 200px;
+    }
+
+
+
+    /*--------------
+        Ad stats
+    --------------*/
+    .ad_stats .block_title
+    {
+        font-size: 22px;
+    }
+
+
+    .ad_stats .item
+    {
+        min-height: 124px;
+    }
+
+    .ad_stats .item .val
+    {
+        font-size: 28px;
+    }
+
+    .ad_stats .item .val small,
+    .ad_stats .item .val .sep
+    {
+        margin-left: 4px;
+    }
+
+    .ad_stats .item .val div + small
+    {
+        margin-left: 12px;
+    }
+
+
+
+    /*--------------
+        Ad chart
+    --------------*/
+    .ad_chart .block_title
+    {
+        font-size: 22px;
+    }
+
+
+    .ad_chart .filter
+    {
+        margin-bottom: 32px;
+    }
+
+    .ad_chart .filter input[type=radio] + label
+    {
+        padding: 13px 19px;
+    }
+
+    .ad_chart .filter .date
+    {
+        width: 362px;
+        margin-top: 8px;
+        margin-left: auto;
+    }
+
+
+    .ad_chart .chart_head
+    {
+        font-size: 16px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .ad_chart .chart
+    {
+        padding: 24px;
+    }
+
+
+    .ad_chart .chart_bottom
+    {
+        font-size: 16px;
+
+        margin-top: 20px;
+    }
+
+
+
+    /*----------
+        Auth
+    ----------*/
+    .auth .data
+    {
+        width: 472px;
+        padding: 40px 52px;
+    }
+
+
+    .auth .block_title
+    {
+        font-size: 28px;
+
+        margin-bottom: 28px;
+    }
+
+
+
+    /*----------------------
+        Companies filter
+    ----------------------*/
+    .companies_filter .form
+    {
+        padding: 24px;
+    }
+
+
+    .companies_filter .form > * + *
+    {
+        margin-top: 20px;
+    }
+
+
+    .companies_filter .label
+    {
+        font-size: 17px;
+    }
+
+
+    .companies_filter .type .label
+    {
+        width: 152px;
+    }
+
+
+
+    /*--------------------
+        Companies list
+    --------------------*/
+    .companies_list .block_title
+    {
+        font-size: 22px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .companies_list .company .data
+    {
+        width: calc(100% - 348px);
+        padding-right: 0;
+    }
+
+
+    .companies_list .company .name
+    {
+        font-size: 22px;
+    }
+
+
+    .companies_list .company .links
+    {
+        width: 180px;
+    }
+
+
+
+    /*------------------
+        Company info
+    ------------------*/
+    .company_info .company_data .data
+    {
+        width: calc(100% - 432px);
+        padding-right: 0;
+    }
+
+
+    .company_info .company_data .contacts
+    {
+        width: 264px;
+    }
+
+
+    .company_info .company_data .contacts .btns .mini_modal
+    {
+        right: 0;
+        left: auto;
+
+        margin-left: 0;
+    }
+
+    .company_info .company_data .contacts .btns .mini_modal:after
+    {
+        right: 104px;
+        left: auto;
+    }
+
+
+
+    /*----------------------
+        Company contacts
+    ----------------------*/
+    .company_contacts .data .btns .mini_modal
+    {
+        left: 0;
+
+        margin-left: 0;
+    }
+
+    .company_contacts .data .btns .mini_modal:after
+    {
+        right: auto;
+        left: 136px;
+    }
+
+
+    .company_contacts .map_wrap
+    {
+        width: calc(100% - 368px);
+        min-height: 308px;
+    }
+
+
+
+    /*-------------------
+        Notifications
+    -------------------*/
+    .notifications .item .title
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*-----------------------
+        Special placement
+    -----------------------*/
+    .special_placement .block_title
+    {
+        font-size: 22px;
+
+        width: 520px;
+    }
+
+
+    .special_placement .item .data
+    {
+        width: calc(100% - 304px);
+    }
+
+
+    .special_placement .item .name
+    {
+        font-size: 22px;
+    }
+
+
+    .special_placement .item .order_btn
+    {
+        font-size: 15px;
+
+        padding: 14px 24px;
+    }
+
+
+    .special_placement .item .thumb
+    {
+        width: 280px;
+        height: 232px;
+    }
+
+
+
+    /*------------------
+        LK - Profile
+    ------------------*/
+    .lk_profile .form .section > .data
+    {
+        padding: 24px;
+    }
+
+
+    .lk_profile .form .change_btn
+    {
+        width: 427px;
+        max-width: calc(100% - var(--form_label_width));
+        margin-top: 4px;
+        margin-left: var(--form_label_width);
+
+        text-align: right;
+    }
+
+
+
+    /*---------------
+        Vacancies
+    ---------------*/
+    .vacancies .vacancy
+    {
+        padding: 20px;
+    }
+
+
+    .vacancies .vacancy .info > .sticker
+    {
+        margin-bottom: 12px;
+    }
+
+
+    .vacancies .vacancy .info > .title
+    {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+
+    .vacancies .vacancy .info > .price
+    {
+        font-size: 20px;
+    }
+
+
+    .vacancies .vacancy .info > .btns .btn
+    {
+        font-size: 15px;
+
+        padding: 12px;
+    }
+
+
+    .vacancies .vacancy .info > .btns .respond_btn.active,
+    .vacancies .vacancy .info > .btns .respond_btn.active:hover
+    {
+        width: 292px;
+    }
+
+
+    .vacancies .vacancy .info > .btns .call_info .phone
+    {
+        font-size: 22px;
+    }
+
+
+    .vacancies .vacancy .info > .date
+    {
+        right: 20px;
+        bottom: 20px;
+    }
+
+
+
+    /*------------------
+        Search count
+    ------------------*/
+    .search_count
+    {
+        font-size: 22px;
+
+        margin-bottom: 20px;
+    }
+
+
+
+    /*------------------
+        Vacancy info
+    ------------------*/
+    .vacancy_head > .vacancy_name
+    {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+
+    .vacancy_head > .price
+    {
+        font-size: 20px;
+    }
+
+
+    .vacancy_head > .btns .btn
+    {
+        font-size: 15px;
+
+        padding: 12px;
+    }
+
+
+    .vacancy_head > .btns .respond_btn.active,
+    .vacancy_head > .btns .respond_btn.active:hover
+    {
+        width: 292px;
+    }
+
+
+    .vacancy_head > .btns .call_info .phone
+    {
+        font-size: 22px;
+    }
+
+
+
+    .vacancy_data
+    {
+        padding: 24px;
+    }
+
+
+
+    .vacancy_accordion .data .title
+    {
+        font-size: 17px;
+        line-height: 130%;
+    }
+
+
+    .vacancy_accordion .respond_btn
+    {
+        padding: 16px 32px;
+    }
+
+
+
+    .vacancy_info .contacts .show_btn
+    {
+        font-size: 15px;
+
+        padding: 12px;
+    }
+
+    .vacancy_info .contacts .info .phone
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*--------------
+        Resumies
+    --------------*/
+    .resumies .resume
+    {
+        padding: 20px;
+    }
+
+
+    .resumies .resume .info > .sticker
+    {
+        margin-bottom: 12px;
+    }
+
+
+    .resumies .resume .info > .title
+    {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+
+    .resumies .resume .info > .avatar
+    {
+        top: 100px;
+        right: 20px;
+    }
+
+    .resumies .resume.premium .info > .avatar
+    {
+        top: 136px;
+    }
+
+
+    .resumies .resume .info > .price
+    {
+        font-size: 20px;
+    }
+
+
+    .resumies .resume .info > .btns
+    {
+        width: 100%;
+    }
+
+
+    .resumies .resume .info > .btns .btn
+    {
+        font-size: 15px;
+
+        padding: 12px;
+    }
+
+
+    .resumies .resume .info > .btns .call_info .phone
+    {
+        font-size: 22px;
+    }
+
+
+    .resumies .resume .info > .date
+    {
+        position: relative;
+        right: 0;
+        bottom: 0;
+
+        width: 100%;
+        margin-top: 16px;
+
+        text-align: left;
+    }
+
+
+
+    /*-----------------
+        Resume info
+    -----------------*/
+    .resume_head > .resume_name
+    {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+
+    .resume_head > .price
+    {
+        font-size: 20px;
+    }
+
+
+    .resume_head > .btns > *.big_w
+    {
+        width: 280px;
+    }
+
+
+    .resume_head > .btns .btn
+    {
+        font-size: 15px;
+
+        padding: 12px;
+    }
+
+
+    .resume_head > .btns .respond_btn.active,
+    .resume_head > .btns .respond_btn.active:hover
+    {
+        width: 292px;
+    }
+
+
+    .resume_head > .btns .call_info .phone
+    {
+        font-size: 22px;
+    }
+
+
+    .resume_data
+    {
+        padding: 24px;
+    }
+
+    .resume_data .experience .period
+    {
+        width: 180px;
+    }
+
+    .resume_data .experience .desc
+    {
+        max-width: calc(100% - 204px);
+    }
+
+
+    .resume_info .content > .invite_btn
+    {
+        padding: 16px 32px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding: 52px 0;
+    }
+
+
+    footer .menu .col + .col
+    {
+        margin-left: 32px;
+    }
+
+    footer .menu .col > * + *
+    {
+        margin-top: 12px;
+    }
+
+    footer .menu a
+    {
+        font-size: 14px;
+    }
+
+
+    footer .col_right
+    {
+        width: 224px;
+    }
+
+
+    footer .btns .btn
+    {
+        font-size: 15px;
+
+        padding: 12px 24px;
+    }
+
+
+    footer .links
+    {
+        margin-top: 24px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal .call_info .phone
+    {
+        font-size: 22px;
+    }
+
+
+
+    #region_modal .modal_title
+    {
+        font-size: 22px;
+        line-height: 28px;
+
+        padding: 15px 92px 12px 32px;
+    }
+
+
+    #region_modal .modal_data
+    {
+        padding: 20px 32px 32px;
+    }
+
+
+    #region_modal .selected .title
+    {
+        font-size: 17px;
+        line-height: 130%;
+    }
+
+    #region_modal .selected .vals
+    {
+        margin-bottom: -12px;
+        margin-left: -12px;
+    }
+
+    #region_modal .selected .vals > *
+    {
+        max-width: calc(100% - 12px);
+        margin-bottom: 12px;
+        margin-left: 12px;
+    }
+
+
+    #region_modal .data .title
+    {
+        font-size: 22px;
+
+        margin-bottom: 12px;
+    }
+
+
+    #region_modal .lists .list
+    {
+        padding: 12px 0;
+    }
+
+    #region_modal .lists .list .add_btn
+    {
+        opacity: 1;
+    }
+}

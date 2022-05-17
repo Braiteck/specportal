@@ -1,0 +1,2932 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#4654B6">
+		<meta name="theme-color" content="#4654B6">
+
+		<!-- Подключение шрифтов с гугла -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="css/swiper-bundle.min.css">
+		<link rel="stylesheet" href="css/swiper.css">
+		<link rel="stylesheet" href="css/fancybox.css">
+		<link rel="stylesheet" href="css/select2.min.css">
+		<link rel="stylesheet" href="css/daterangepicker.css">
+		<link rel="stylesheet" href="css/styles.css">
+
+		<link rel="stylesheet" href="css/response_1247.css" media="print, (max-width: 1247px)">
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)">
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)">
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)">
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header>
+					<div class="info">
+						<div class="cont row">
+							<a href="/" class="logo">
+								<img src="images/logo.svg" alt="">
+							</a>
+
+							<div class="search">
+								<form action="">
+									<div class="type">
+										<select name="">
+											<option value="1" selected>Аренда</option>
+											<option value="2">Продажа</option>
+											<option value="3">Материалы</option>
+											<option value="4">Оборудование</option>
+											<option value="5">Вакансии</option>
+											<option value="6">Резюме</option>
+											<option value="7">Компании</option>
+											<option value="8">Везде</option>
+										</select>
+
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_down"></use></svg>
+									</div>
+
+									<input type="text" name="" value="" class="input" placeholder="Я ищу...">
+
+									<button type="submit" class="submit_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+									</button>
+								</form>
+							</div>
+
+							<div class="location">
+								<div class="current">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+									<span>Москва</span>
+								</div>
+							</div>
+
+							<div class="links">
+								<div class="favorite_link">
+									<a href="/" class="link">
+										<div class="icon">
+											<svg><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+										</div>
+										<div class="count">22</div>
+									</a>
+								</div>
+
+								<div class="views_link">
+									<a href="/" class="link">
+										<div class="icon">
+											<svg><use xlink:href="images/sprite.svg#ic_views"></use></svg>
+										</div>
+										<div class="count">12</div>
+									</a>
+								</div>
+
+								<div class="account modal_cont">
+									<button class="btn mini_modal_btn" data-modal-id="#account_modal">
+										<div class="icon">
+											<svg><use xlink:href="images/sprite.svg#ic_user"></use></svg>
+										</div>
+
+										<div class="arrow">
+											<svg><use xlink:href="images/sprite.svg#ic_arrow_down"></use></svg>
+										</div>
+									</button>
+
+									<div class="mini_modal" id="account_modal">
+										<div><a href="/">
+											<span>Мои объявления</span>
+											<span class="count">22</span>
+										</a></div>
+
+										<div><a href="/">
+											<span>Мои вакансии и резюме</span>
+											<span class="count">22</span>
+										</a></div>
+
+										<div><a href="/">
+											<span>Мои заявки и отклики</span>
+											<span class="count">22</span>
+										</a></div>
+
+										<div><a href="/">
+											<span>Профиль</span>
+										</a></div>
+
+										<div><a href="/">
+											<span>Уведомления</span>
+											<span class="count">22</span>
+										</a></div>
+
+										<div><a href="/">
+											<span>Спецразмещение</span>
+										</a></div>
+
+										<div><a href="/">
+											<span>Помощь</span>
+										</a></div>
+
+										<div class="line"></div>
+
+										<div><a href="/">
+											<span>Выход</span>
+										</a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="bottom">
+						<div class="cont row">
+							<nav class="menu row">
+								<div class="item">
+									<a href="/">Аренда</a>
+								</div>
+
+								<div class="item">
+									<a href="/">Продажа</a>
+								</div>
+
+								<div class="item">
+									<a href="/">Материалы</a>
+								</div>
+
+								<div class="item">
+									<a href="/">Оборудование</a>
+								</div>
+
+								<div class="item">
+									<a href="/">Операторы</a>
+								</div>
+							</nav>
+
+							<div class="account_links">
+								<div><a href="/">Регистрация</a></div>
+								<div><a href="/">Вход</a></div>
+							</div>
+
+							<div class="btns">
+								<button class="btn modal_btn" data-content="#order_modal">Оставить заявку</button>
+								<button class="btn orange">Разместить объявление</button>
+							</div>
+						</div>
+					</div>
+				</header>
+
+
+				<section class="mob_header">
+					<div class="info">
+						<div class="cont">
+							<a href="/" class="logo">
+								<img src="images/logo.svg" alt="">
+							</a>
+
+							<div class="links">
+								<div class="favorite_link">
+									<a href="/" class="link">
+										<div class="icon">
+											<svg><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+										</div>
+										<div class="count">22</div>
+									</a>
+								</div>
+
+								<div class="views_link">
+									<a href="/" class="link">
+										<div class="icon">
+											<svg><use xlink:href="images/sprite.svg#ic_views"></use></svg>
+										</div>
+										<div class="count">12</div>
+									</a>
+								</div>
+							</div>
+
+							<div class="location">
+								<div class="current">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+									<span>Москва</span>
+								</div>
+							</div>
+
+							<button class="mob_menu_btn">
+								<div class="icon"><span></span></div>
+							</button>
+						</div>
+					</div>
+
+
+					<div class="bottom">
+						<div class="cont">
+							<div class="search">
+								<form action="">
+									<div class="type">
+										<select name="">
+											<option value="1" selected>Аренда</option>
+											<option value="2">Продажа</option>
+											<option value="3">Материалы</option>
+											<option value="4">Оборудование</option>
+											<option value="5">Вакансии</option>
+											<option value="6">Резюме</option>
+											<option value="7">Компании</option>
+											<option value="8">Везде</option>
+										</select>
+
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_down"></use></svg>
+									</div>
+
+									<input type="text" name="" value="" class="input" placeholder="Я ищу...">
+
+									<button type="submit" class="submit_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+									</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="page_head">
+					<div class="cont">
+						<div class="breadcrumbs">
+							<a href="/">Главная</a> <span class="sep">/</span>
+							<span class="current">Операторы спецтехники</span>
+						</div>
+
+						<h1 class="page_title">Работа для операторов спецтехники</h1>
+					</div>
+				</section>
+
+
+				<section class="tabs_container block">
+					<div class="cont">
+						<form action="" class="search_form">
+							<input type="text" name="" value="" class="input" placeholder="Профессия, должность или компания">
+
+							<button type="submit" class="submit_btn">Найти</button>
+						</form>
+
+						<div class="tabs border">
+							<div class="list">
+								<button data-content="#tab1" data-level="level1" class="active">
+									<span>Вакансии</span>
+								</button>
+
+								<button data-content="#tab2" data-level="level1">
+									<span>Резюме</span>
+								</button>
+
+								<button data-content="#tab3" data-level="level1">
+									<span>Компании</span>
+								</button>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="tab_content level1 active" id="tab1">
+						<section class="content_flex">
+							<div class="cont row">
+								<div class="search_count">Найдено 127 643 вакансий операторов спецтехники</div>
+
+								<aside>
+									<div class="mob_btns">
+										<a href="/" class="map_link">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_location3"></use></svg>
+											<span>На карте</span>
+										</a>
+
+										<button class="filter_btn">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_filter"></use></svg>
+											<span>Фильтры</span>
+										</button>
+									</div>
+
+									<div class="filter">
+										<form action="">
+											<div class="item">
+												<div class="title active">
+													<span>Регион</span>
+													<div class="icon">
+														<svg><use xlink:href="images/sprite.svg#ic_arrow_down"></use></svg>
+													</div>
+												</div>
+
+												<div class="data" style="display: block;">
+													<div class="field">
+														<input type="checkbox" name="group1" id="group1_check1" checked>
+														<label for="group1_check1">
+															<div class="name">Москва</div>
+															<div class="count">1 288</div>
+														</label>
+													</div>
+
+													<div class="field">
+														<input type="checkbox" name="group1" id="group1_check2" checked>
+														<label for="group1_check2">
+															<div class="name">Московская область</div>
+															<div class="count">1 288</div>
+														</label>
+													</div>
+
+													<button type="button" class="add_change_btn modal_btn" data-content="#region_modal">Добавить или изменить регион</button>
+												</div>
+											</div>
+
+
+											<div class="item">
+												<div class="title active">
+													<span>Уровень дохода</span>
+													<div class="icon">
+														<svg><use xlink:href="images/sprite.svg#ic_arrow_down"></use></svg>
+													</div>
+												</div>
+
+												<div class="data" style="display: block;">
+													<div class="field">
+														<input type="checkbox" name="group2" id="group2_check1">
+														<label for="group2_check1">
+															<div class="name">От 35 000 р.</div>
+															<div class="count">1 288</div>
+														</label>
+													</div>
+
+													<div class="field">
+														<input type="checkbox" name="group2" id="group2_check2">
+														<label for="group2_check2">
+															<div class="name">От 50 000 р.</div>
+															<div class="count">2 034</div>
+														</label>
+													</div>
+
+													<div class="field">
+														<input type="checkbox" name="group2" id="group2_check3">
+														<label for="group2_check3">
+															<div class="name">От 65 000 р.</div>
+															<div class="count">1 288</div>
+														</label>
+													</div>
+
+													<div class="field">
+														<input type="checkbox" name="group2" id="group2_check4">
+														<label for="group2_check4">
+															<div class="name">От 80 000 р.</div>
+															<div class="count">2 034</div>
+														</label>
+													</div>
+
+													<div class="field">
+														<input type="checkbox" name="group2" id="group2_check5">
+														<label for="group2_check5">
+															<div class="name">От 95 000 р.</div>
+															<div class="count">1 288</div>
+														</label>
+													</div>
+
+													<div class="field">
+														<input type="checkbox" name="group2" id="group2_check6">
+														<label for="group2_check6">
+															<div class="name">От 110 000 р.</div>
+															<div class="count">2 034</div>
+														</label>
+													</div>
+
+													<div class="field">
+														<input type="checkbox" name="group2" id="group2_check7">
+														<label for="group2_check7">
+															<div class="name">От 110 000 р.</div>
+															<div class="count">1 288</div>
+														</label>
+													</div>
+
+													<div class="field">
+														<input type="checkbox" name="group2" id="group2_check8">
+														<label for="group2_check8">
+															<div class="name">От 130 000 р.</div>
+															<div class="count">2 034</div>
+														</label>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="item">
+												<div class="title active">
+													<span>Тип ставки</span>
+													<div class="icon">
+														<svg><use xlink:href="images/sprite.svg#ic_arrow_down"></use></svg>
+													</div>
+												</div>
+
+												<div class="data" style="display: block;">
+													<div class="field">
+														<input type="checkbox" name="group3" id="group3_check1">
+														<label for="group3_check1">
+															<div class="name">Месяц</div>
+															<div class="count">1 288</div>
+														</label>
+													</div>
+
+													<div class="field">
+														<input type="checkbox" name="group3" id="group3_check2">
+														<label for="group3_check2">
+															<div class="name">Час</div>
+															<div class="count">2 034</div>
+														</label>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="item">
+												<div class="title active">
+													<span>Категория техники</span>
+													<div class="icon">
+														<svg><use xlink:href="images/sprite.svg#ic_arrow_down"></use></svg>
+													</div>
+												</div>
+
+												<div class="data" style="display: block;">
+													<div class="field">
+														<input type="checkbox" name="group4" id="group4_check1">
+														<label for="group4_check1">
+															<div class="name">Краны</div>
+															<div class="count">1 288</div>
+														</label>
+													</div>
+
+													<div class="field">
+														<input type="checkbox" name="group4" id="group4_check2">
+														<label for="group4_check2">
+															<div class="name">Экскаваторы</div>
+															<div class="count">2 034</div>
+														</label>
+													</div>
+
+													<div class="field">
+														<input type="checkbox" name="group4" id="group4_check3">
+														<label for="group4_check3">
+															<div class="name">Седельные тягачи</div>
+															<div class="count">1 288</div>
+														</label>
+													</div>
+
+													<div class="field">
+														<input type="checkbox" name="group4" id="group4_check4">
+														<label for="group4_check4">
+															<div class="name">Полуприцепы и прицепы</div>
+															<div class="count">2 034</div>
+														</label>
+													</div>
+
+													<div class="field">
+														<input type="checkbox" name="group4" id="group4_check5">
+														<label for="group4_check5">
+															<div class="name">Сельскохозяйственная техника</div>
+															<div class="count">2 034</div>
+														</label>
+													</div>
+
+													<div class="field">
+														<input type="checkbox" name="group4" id="group4_check6">
+														<label for="group4_check6">
+															<div class="name">Бульдозеры</div>
+															<div class="count">1 288</div>
+														</label>
+													</div>
+
+													<div class="field">
+														<input type="checkbox" name="group4" id="group4_check7">
+														<label for="group4_check7">
+															<div class="name">Катки</div>
+															<div class="count">1 288</div>
+														</label>
+													</div>
+
+													<div class="field">
+														<input type="checkbox" name="group4" id="group4_check8">
+														<label for="group4_check8">
+															<div class="name">Погрузчики</div>
+															<div class="count">2 034</div>
+														</label>
+													</div>
+
+													<div class="field">
+														<input type="checkbox" name="group4" id="group4_check9">
+														<label for="group4_check9">
+															<div class="name">Самосвалы</div>
+															<div class="count">2 034</div>
+														</label>
+													</div>
+
+													<div class="field">
+														<input type="checkbox" name="group4" id="group4_check10">
+														<label for="group4_check10">
+															<div class="name">Бетоносмесительная техника</div>
+															<div class="count">2 034</div>
+														</label>
+													</div>
+
+													<div class="field">
+														<input type="checkbox" name="group4" id="group4_check11">
+														<label for="group4_check11">
+															<div class="name">Манипуляторы и эвакуаторы</div>
+															<div class="count">2 034</div>
+														</label>
+													</div>
+
+													<div class="field hide">
+														<input type="checkbox" name="group4" id="group4_check12">
+														<label for="group4_check12">
+															<div class="name">Манипуляторы и эвакуаторы</div>
+															<div class="count">2 034</div>
+														</label>
+													</div>
+
+													<div class="field hide">
+														<input type="checkbox" name="group4" id="group4_check13">
+														<label for="group4_check13">
+															<div class="name">Манипуляторы и эвакуаторы</div>
+															<div class="count">2 034</div>
+														</label>
+													</div>
+
+													<button type="button" class="spoler_btn">
+														<span>Ещё 23</span>
+														<span>Свернуть</span>
+													</button>
+												</div>
+											</div>
+
+
+											<div class="item">
+												<div class="title active">
+													<span>Подкатегория техники</span>
+													<div class="icon">
+														<svg><use xlink:href="images/sprite.svg#ic_arrow_down"></use></svg>
+													</div>
+												</div>
+
+												<div class="data" style="display: block;">
+													<div class="exp">Сначала выберите категорию<br> техники</div>
+												</div>
+											</div>
+
+
+											<div class="item">
+												<div class="title active">
+													<span>Тип занятости</span>
+													<div class="icon">
+														<svg><use xlink:href="images/sprite.svg#ic_arrow_down"></use></svg>
+													</div>
+												</div>
+
+												<div class="data" style="display: block;">
+													<div class="field">
+														<input type="checkbox" name="group5" id="group5_check1">
+														<label for="group5_check1">
+															<div class="name">Полная</div>
+															<div class="count">1 288</div>
+														</label>
+													</div>
+
+													<div class="field">
+														<input type="checkbox" name="group5" id="group5_check2">
+														<label for="group5_check2">
+															<div class="name">Частичная</div>
+															<div class="count">2 034</div>
+														</label>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="item">
+												<div class="title active">
+													<span>График работы</span>
+													<div class="icon">
+														<svg><use xlink:href="images/sprite.svg#ic_arrow_down"></use></svg>
+													</div>
+												</div>
+
+												<div class="data" style="display: block;">
+													<div class="field">
+														<input type="checkbox" name="group6" id="group6_check1">
+														<label for="group6_check1">
+															<div class="name">Полный день</div>
+															<div class="count">1 288</div>
+														</label>
+													</div>
+
+													<div class="field">
+														<input type="checkbox" name="group6" id="group6_check2">
+														<label for="group6_check2">
+															<div class="name">Вахтовый метод</div>
+															<div class="count">2 034</div>
+														</label>
+													</div>
+
+													<div class="field">
+														<input type="checkbox" name="group6" id="group6_check3">
+														<label for="group6_check3">
+															<div class="name">Сменный график</div>
+															<div class="count">1 288</div>
+														</label>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="item">
+												<div class="title active">
+													<span>Опыт работы</span>
+													<div class="icon">
+														<svg><use xlink:href="images/sprite.svg#ic_arrow_down"></use></svg>
+													</div>
+												</div>
+
+												<div class="data" style="display: block;">
+													<div class="field">
+														<input type="checkbox" name="group7" id="group7_check1">
+														<label for="group7_check1">
+															<div class="name">От 1 года до 3 лет</div>
+															<div class="count">1 288</div>
+														</label>
+													</div>
+
+													<div class="field">
+														<input type="checkbox" name="group7" id="group7_check2">
+														<label for="group7_check2">
+															<div class="name">От 3 до 6 лет</div>
+															<div class="count">2 034</div>
+														</label>
+													</div>
+
+													<div class="field">
+														<input type="checkbox" name="group7" id="group7_check3">
+														<label for="group7_check3">
+															<div class="name">Более 6 лет</div>
+															<div class="count">1 288</div>
+														</label>
+													</div>
+
+													<div class="field">
+														<input type="checkbox" name="group7" id="group7_check4">
+														<label for="group7_check4">
+															<div class="name">Без опыта</div>
+															<div class="count">1 288</div>
+														</label>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="submit">
+												<button type="reset" class="reset_btn">Сбросить фильтры</button>
+											</div>
+										</form>
+									</div>
+
+
+									<div class="ad">
+										<img data-src="images/tmp/aside_ad.jpg" alt="" class="lozad">
+									</div>
+								</aside>
+
+
+								<section class="content">
+									<section class="ads_head row">
+										<div class="sort">
+											<select name="">
+												<option value="1" selected>По соответствию</option>
+												<option value="2">Вариант 2</option>
+												<option value="3">Вариант 3</option>
+												<option value="4">Вариант 4</option>
+											</select>
+
+											<div class="select_arrow">
+												<svg><use xlink:href="images/sprite.svg#ic_arrow_down"></use></svg>
+											</div>
+										</div>
+
+										<div class="period">
+											<select name="">
+												<option value="1" selected>Весь период</option>
+												<option value="2">Вариант 2</option>
+												<option value="3">Вариант 3</option>
+												<option value="4">Вариант 4</option>
+											</select>
+
+											<div class="select_arrow">
+												<svg><use xlink:href="images/sprite.svg#ic_arrow_down"></use></svg>
+											</div>
+										</div>
+									</section>
+
+
+									<section class="vacancies">
+										<div class="list">
+											<div class="vacancy premium">
+												<div class="info">
+													<div class="sticker">
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_star"></use></svg>
+														<span>Премиум объявление</span>
+													</div>
+
+													<div class="title">
+														<a href="/">Экскаваторщик (Экскаватор-погрузчик JCB)</a>
+													</div>
+
+													<button class="favorite_btn">
+														<svg><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+														<svg><use xlink:href="images/sprite.svg#ic_favorite2"></use></svg>
+													</button>
+
+													<div class="location">Московская область, Бронницы</div>
+
+													<div class="company">
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_dilear"></use></svg>
+														<span>ООО «Альфа СпецСтрой Альянс»</span>
+													</div>
+
+													<div class="desc">Управление трактором при погрузочно-разгрузочных работ. Техническое обслуживание техники и механизмов.<br> Опыт работы от 3 лет на тракторах JCB -обязателен! Наличие удостоверения. Наличие медицинской справки. Соблюдение требований техники безопасности и правил...</div>
+
+													<div class="similar_link">
+														<a href="/">У компании есть 12 похожих вакансий</a>
+													</div>
+
+													<div class="price">
+														<div>80 000-90 000 р./месяц</div>
+													</div>
+
+													<div class="date">27 апреля</div>
+
+													<div class="btns">
+														<button class="btn respond_btn orange">
+															<span>Откликнуться</span>
+															<span>Вы откликнулись на вакансию</span>
+														</button>
+
+														<div class="modal_cont">
+															<button class="btn mini_modal_btn">Показать контакты</button>
+
+															<div class="mini_modal" id="call_modal">
+																<div class="call_info">
+																	<button class="close_btn"></button>
+
+																	<div class="manager">Ольга, HR-менеджер</div>
+
+																	<div class="phone">
+																		<a href="tel:+79958836940">+ 7 (995) 883-69-40</a>
+																	</div>
+
+																	<div class="time">Звонки принимаются с 9:00 до 18:00 в рабочие дни</div>
+
+																	<div class="email">
+																		<a href="mailto:jobme@please.ru">jobme@please.ru</a>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="vacancy">
+												<div class="info">
+													<div class="title">
+														<a href="/">Машинист экскаватора / экскаватора УДС / бульдозера Комацу</a>
+													</div>
+
+													<button class="favorite_btn">
+														<svg><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+														<svg><use xlink:href="images/sprite.svg#ic_favorite2"></use></svg>
+													</button>
+
+													<div class="location">Московская область, Бронницы</div>
+
+													<div class="company">
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+														<span>ООО «Альфа СпецСтрой Альянс»</span>
+													</div>
+
+													<div class="desc">Управление трактором при погрузочно-разгрузочных работ. Техническое обслуживание техники и механизмов.<br> Опыт работы от 3 лет на тракторах JCB -обязателен! Наличие удостоверения. Наличие медицинской справки. Соблюдение требований техники безопасности и правил...</div>
+
+													<div class="similar_link">
+														<a href="/">У компании есть 12 похожих вакансий</a>
+													</div>
+
+													<div class="price">
+														<div>80 000-90 000 р./месяц</div>
+													</div>
+
+													<div class="date">27 апреля</div>
+
+													<div class="btns">
+														<button class="btn respond_btn orange">
+															<span>Откликнуться</span>
+															<span>Вы откликнулись на вакансию</span>
+														</button>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="vacancy">
+												<div class="info">
+													<div class="title">
+														<a href="/">Машинист экскаватора / экскаватора УДС / бульдозера Комацу</a>
+													</div>
+
+													<button class="favorite_btn">
+														<svg><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+														<svg><use xlink:href="images/sprite.svg#ic_favorite2"></use></svg>
+													</button>
+
+													<div class="location">Московская область, Бронницы</div>
+
+													<div class="company">
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+														<span>ООО «Альфа СпецСтрой Альянс»</span>
+													</div>
+
+													<div class="desc">Управление трактором при погрузочно-разгрузочных работ. Техническое обслуживание техники и механизмов.<br> Опыт работы от 3 лет на тракторах JCB -обязателен! Наличие удостоверения. Наличие медицинской справки. Соблюдение требований техники безопасности и правил...</div>
+
+													<div class="similar_link">
+														<a href="/">У компании есть 12 похожих вакансий</a>
+													</div>
+
+													<div class="price">
+														<div>80 000-90 000 р./месяц</div>
+													</div>
+
+													<div class="date">27 апреля</div>
+
+													<div class="btns">
+														<button class="btn respond_btn orange">
+															<span>Откликнуться</span>
+															<span>Вы откликнулись на вакансию</span>
+														</button>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="vacancy">
+												<div class="info">
+													<div class="title">
+														<a href="/">Экскаваторщик (Экскаватор-погрузчик JCB)</a>
+													</div>
+
+													<button class="favorite_btn">
+														<svg><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+														<svg><use xlink:href="images/sprite.svg#ic_favorite2"></use></svg>
+													</button>
+
+													<div class="location">Московская область, Бронницы</div>
+
+													<div class="company">
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_dilear"></use></svg>
+														<span>ООО «Альфа СпецСтрой Альянс»</span>
+													</div>
+
+													<div class="desc">Управление трактором при погрузочно-разгрузочных работ. Техническое обслуживание техники и механизмов.<br> Опыт работы от 3 лет на тракторах JCB -обязателен! Наличие удостоверения. Наличие медицинской справки. Соблюдение требований техники безопасности и правил...</div>
+
+													<div class="similar_link">
+														<a href="/">У компании есть 12 похожих вакансий</a>
+													</div>
+
+													<div class="price">
+														<div>80 000-90 000 р./месяц</div>
+													</div>
+
+													<div class="date">27 апреля</div>
+
+													<div class="btns">
+														<button class="btn respond_btn orange">
+															<span>Откликнуться</span>
+															<span>Вы откликнулись на вакансию</span>
+														</button>
+
+														<div class="modal_cont">
+															<button class="btn mini_modal_btn">Показать контакты</button>
+
+															<div class="mini_modal" id="call_modal">
+																<div class="call_info">
+																	<button class="close_btn"></button>
+
+																	<div class="manager">Ольга, HR-менеджер</div>
+
+																	<div class="phone">
+																		<a href="tel:+79958836940">+ 7 (995) 883-69-40</a>
+																	</div>
+
+																	<div class="time">Звонки принимаются с 9:00 до 18:00 в рабочие дни</div>
+
+																	<div class="email">
+																		<a href="mailto:jobme@please.ru">jobme@please.ru</a>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="vacancy">
+												<div class="info">
+													<div class="title">
+														<a href="/">Экскаваторщик (Экскаватор-погрузчик JCB)</a>
+													</div>
+
+													<button class="favorite_btn">
+														<svg><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+														<svg><use xlink:href="images/sprite.svg#ic_favorite2"></use></svg>
+													</button>
+
+													<div class="location">Московская область, Бронницы</div>
+
+													<div class="company">
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_dilear"></use></svg>
+														<span>ООО «Альфа СпецСтрой Альянс»</span>
+													</div>
+
+													<div class="desc">Управление трактором при погрузочно-разгрузочных работ. Техническое обслуживание техники и механизмов.<br> Опыт работы от 3 лет на тракторах JCB -обязателен! Наличие удостоверения. Наличие медицинской справки. Соблюдение требований техники безопасности и правил...</div>
+
+													<div class="similar_link">
+														<a href="/">У компании есть 12 похожих вакансий</a>
+													</div>
+
+													<div class="price">
+														<div>80 000-90 000 р./месяц</div>
+													</div>
+
+													<div class="date">27 апреля</div>
+
+													<div class="btns">
+														<button class="btn respond_btn orange">
+															<span>Откликнуться</span>
+															<span>Вы откликнулись на вакансию</span>
+														</button>
+
+														<div class="modal_cont">
+															<button class="btn mini_modal_btn">Показать контакты</button>
+
+															<div class="mini_modal" id="call_modal">
+																<div class="call_info">
+																	<button class="close_btn"></button>
+
+																	<div class="manager">Ольга, HR-менеджер</div>
+
+																	<div class="phone">
+																		<a href="tel:+79958836940">+ 7 (995) 883-69-40</a>
+																	</div>
+
+																	<div class="time">Звонки принимаются с 9:00 до 18:00 в рабочие дни</div>
+
+																	<div class="email">
+																		<a href="mailto:jobme@please.ru">jobme@please.ru</a>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="vacancy">
+												<div class="info">
+													<div class="title">
+														<a href="/">Машинист экскаватора / экскаватора УДС / бульдозера Комацу</a>
+													</div>
+
+													<button class="favorite_btn">
+														<svg><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+														<svg><use xlink:href="images/sprite.svg#ic_favorite2"></use></svg>
+													</button>
+
+													<div class="location">Московская область, Бронницы</div>
+
+													<div class="company">
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+														<span>ООО «Альфа СпецСтрой Альянс»</span>
+													</div>
+
+													<div class="desc">Управление трактором при погрузочно-разгрузочных работ. Техническое обслуживание техники и механизмов.<br> Опыт работы от 3 лет на тракторах JCB -обязателен! Наличие удостоверения. Наличие медицинской справки. Соблюдение требований техники безопасности и правил...</div>
+
+													<div class="similar_link">
+														<a href="/">У компании есть 12 похожих вакансий</a>
+													</div>
+
+													<div class="price">
+														<div>80 000-90 000 р./месяц</div>
+													</div>
+
+													<div class="date">27 апреля</div>
+
+													<div class="btns">
+														<button class="btn respond_btn orange">
+															<span>Откликнуться</span>
+															<span>Вы откликнулись на вакансию</span>
+														</button>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="vacancy">
+												<div class="info">
+													<div class="title">
+														<a href="/">Машинист экскаватора / экскаватора УДС / бульдозера Комацу</a>
+													</div>
+
+													<button class="favorite_btn">
+														<svg><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+														<svg><use xlink:href="images/sprite.svg#ic_favorite2"></use></svg>
+													</button>
+
+													<div class="location">Московская область, Бронницы</div>
+
+													<div class="company">
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+														<span>ООО «Альфа СпецСтрой Альянс»</span>
+													</div>
+
+													<div class="desc">Управление трактором при погрузочно-разгрузочных работ. Техническое обслуживание техники и механизмов.<br> Опыт работы от 3 лет на тракторах JCB -обязателен! Наличие удостоверения. Наличие медицинской справки. Соблюдение требований техники безопасности и правил...</div>
+
+													<div class="similar_link">
+														<a href="/">У компании есть 12 похожих вакансий</a>
+													</div>
+
+													<div class="price">
+														<div>80 000-90 000 р./месяц</div>
+													</div>
+
+													<div class="date">27 апреля</div>
+
+													<div class="btns">
+														<button class="btn respond_btn orange">
+															<span>Откликнуться</span>
+															<span>Вы откликнулись на вакансию</span>
+														</button>
+													</div>
+												</div>
+											</div>
+										</div>
+
+
+										<section class="pagination">
+											<button class="load_more_btn">Показать ещё</button>
+
+											<div class="links">
+												<a href="/" class="prev">
+													<div class="icon">
+														<svg><use xlink:href="images/sprite.svg#ic_arrow_left"></use></svg>
+													</div>
+													<span>В начало</span>
+												</a>
+
+												<a class="active">1</a>
+												<a href="/">2</a>
+												<a href="/">3</a>
+												<div class="sep">...</div>
+												<a href="/">14</a>
+												<a href="/">15</a>
+												<a href="/">16</a>
+												<a href="/">17</a>
+												<a href="/">18</a>
+												<a href="/">19</a>
+												<a href="/" class="visible">20</a>
+
+												<a href="/" class="next">
+													<span>Дальше</span>
+													<div class="icon">
+														<svg><use xlink:href="images/sprite.svg#ic_arrow_left"></use></svg>
+													</div>
+												</a>
+											</div>
+										</section>
+									</section>
+								</section>
+							</div>
+						</section>
+					</div>
+
+
+					<div class="tab_content level1" id="tab2">
+						<section class="content_flex">
+							<div class="cont row">
+								<div class="search_count">Найдено 127 643 резюме операторов спецтехники</div>
+
+								<aside>
+									<div class="mob_btns">
+										<a href="/" class="map_link">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_location3"></use></svg>
+											<span>На карте</span>
+										</a>
+
+										<button class="filter_btn">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_filter"></use></svg>
+											<span>Фильтры</span>
+										</button>
+									</div>
+
+									<div class="filter">
+										<form action="">
+											<div class="item">
+												<div class="title active">
+													<span>Регион</span>
+													<div class="icon">
+														<svg><use xlink:href="images/sprite.svg#ic_arrow_down"></use></svg>
+													</div>
+												</div>
+
+												<div class="data" style="display: block;">
+													<div class="field">
+														<input type="checkbox" name="group1" id="group1_check1" checked>
+														<label for="group1_check1">
+															<div class="name">Москва</div>
+															<div class="count">1 288</div>
+														</label>
+													</div>
+
+													<div class="field">
+														<input type="checkbox" name="group1" id="group1_check2" checked>
+														<label for="group1_check2">
+															<div class="name">Московская область</div>
+															<div class="count">1 288</div>
+														</label>
+													</div>
+
+													<button type="button" class="add_change_btn modal_btn" data-content="#region_modal">Добавить или изменить регион</button>
+												</div>
+											</div>
+
+
+											<div class="item">
+												<div class="title active">
+													<span>Переезд</span>
+													<div class="icon">
+														<svg><use xlink:href="images/sprite.svg#ic_arrow_down"></use></svg>
+													</div>
+												</div>
+
+												<div class="data" style="display: block;">
+													<div class="field">
+														<input type="checkbox" name="group2" id="group2_check1">
+														<label for="group2_check1">
+															<div class="name">Живут или готовы переехать в регион</div>
+															<div class="count">1 288</div>
+														</label>
+													</div>
+
+													<div class="field">
+														<input type="checkbox" name="group2" id="group2_check2">
+														<label for="group2_check2">
+															<div class="name">Живут в регионе</div>
+															<div class="count">2 034</div>
+														</label>
+													</div>
+
+													<div class="field">
+														<input type="checkbox" name="group2" id="group2_check3">
+														<label for="group2_check3">
+															<div class="name">Живут в городе</div>
+															<div class="count">1 288</div>
+														</label>
+													</div>
+
+													<div class="field">
+														<input type="checkbox" name="group2" id="group2_check4">
+														<label for="group2_check4">
+															<div class="name">Не живут, но готовы переехать в регион</div>
+															<div class="count">2 034</div>
+														</label>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="item">
+												<div class="title active">
+													<span>Категория техники</span>
+													<div class="icon">
+														<svg><use xlink:href="images/sprite.svg#ic_arrow_down"></use></svg>
+													</div>
+												</div>
+
+												<div class="data" style="display: block;">
+													<div class="field">
+														<input type="checkbox" name="group4" id="group4_check1">
+														<label for="group4_check1">
+															<div class="name">Краны</div>
+															<div class="count">1 288</div>
+														</label>
+													</div>
+
+													<div class="field">
+														<input type="checkbox" name="group4" id="group4_check2">
+														<label for="group4_check2">
+															<div class="name">Экскаваторы</div>
+															<div class="count">2 034</div>
+														</label>
+													</div>
+
+													<div class="field">
+														<input type="checkbox" name="group4" id="group4_check3">
+														<label for="group4_check3">
+															<div class="name">Седельные тягачи</div>
+															<div class="count">1 288</div>
+														</label>
+													</div>
+
+													<div class="field">
+														<input type="checkbox" name="group4" id="group4_check4">
+														<label for="group4_check4">
+															<div class="name">Полуприцепы и прицепы</div>
+															<div class="count">2 034</div>
+														</label>
+													</div>
+
+													<div class="field">
+														<input type="checkbox" name="group4" id="group4_check5">
+														<label for="group4_check5">
+															<div class="name">Сельскохозяйственная техника</div>
+															<div class="count">2 034</div>
+														</label>
+													</div>
+
+													<div class="field">
+														<input type="checkbox" name="group4" id="group4_check6">
+														<label for="group4_check6">
+															<div class="name">Бульдозеры</div>
+															<div class="count">1 288</div>
+														</label>
+													</div>
+
+													<div class="field">
+														<input type="checkbox" name="group4" id="group4_check7">
+														<label for="group4_check7">
+															<div class="name">Катки</div>
+															<div class="count">1 288</div>
+														</label>
+													</div>
+
+													<div class="field">
+														<input type="checkbox" name="group4" id="group4_check8">
+														<label for="group4_check8">
+															<div class="name">Погрузчики</div>
+															<div class="count">2 034</div>
+														</label>
+													</div>
+
+													<div class="field">
+														<input type="checkbox" name="group4" id="group4_check9">
+														<label for="group4_check9">
+															<div class="name">Самосвалы</div>
+															<div class="count">2 034</div>
+														</label>
+													</div>
+
+													<div class="field">
+														<input type="checkbox" name="group4" id="group4_check10">
+														<label for="group4_check10">
+															<div class="name">Бетоносмесительная техника</div>
+															<div class="count">2 034</div>
+														</label>
+													</div>
+
+													<div class="field">
+														<input type="checkbox" name="group4" id="group4_check11">
+														<label for="group4_check11">
+															<div class="name">Манипуляторы и эвакуаторы</div>
+															<div class="count">2 034</div>
+														</label>
+													</div>
+
+													<div class="field hide">
+														<input type="checkbox" name="group4" id="group4_check12">
+														<label for="group4_check12">
+															<div class="name">Манипуляторы и эвакуаторы</div>
+															<div class="count">2 034</div>
+														</label>
+													</div>
+
+													<div class="field hide">
+														<input type="checkbox" name="group4" id="group4_check13">
+														<label for="group4_check13">
+															<div class="name">Манипуляторы и эвакуаторы</div>
+															<div class="count">2 034</div>
+														</label>
+													</div>
+
+													<button type="button" class="spoler_btn">
+														<span>Ещё 23</span>
+														<span>Свернуть</span>
+													</button>
+												</div>
+											</div>
+
+
+											<div class="item">
+												<div class="title active">
+													<span>Подкатегория техники</span>
+													<div class="icon">
+														<svg><use xlink:href="images/sprite.svg#ic_arrow_down"></use></svg>
+													</div>
+												</div>
+
+												<div class="data" style="display: block;">
+													<div class="exp">Сначала выберите категорию<br> техники</div>
+												</div>
+											</div>
+
+
+											<div class="item">
+												<div class="title active">
+													<span>Уровень дохода, руб.</span>
+													<div class="icon">
+														<svg><use xlink:href="images/sprite.svg#ic_arrow_down"></use></svg>
+													</div>
+												</div>
+
+												<div class="data" style="display: block;">
+													<div class="field row">
+														<input type="text" name="" value="" class="input" placeholder="от">
+
+														<input type="text" name="" value="" class="input" placeholder="до">
+													</div>
+												</div>
+											</div>
+
+
+											<div class="item">
+												<div class="title active">
+													<span>Опыт работы</span>
+													<div class="icon">
+														<svg><use xlink:href="images/sprite.svg#ic_arrow_down"></use></svg>
+													</div>
+												</div>
+
+												<div class="data" style="display: block;">
+													<div class="field">
+														<input type="checkbox" name="group7" id="group7_check1">
+														<label for="group7_check1">
+															<div class="name">От 1 года до 3 лет</div>
+															<div class="count">1 288</div>
+														</label>
+													</div>
+
+													<div class="field">
+														<input type="checkbox" name="group7" id="group7_check2">
+														<label for="group7_check2">
+															<div class="name">От 3 до 6 лет</div>
+															<div class="count">2 034</div>
+														</label>
+													</div>
+
+													<div class="field">
+														<input type="checkbox" name="group7" id="group7_check3">
+														<label for="group7_check3">
+															<div class="name">Более 6 лет</div>
+															<div class="count">1 288</div>
+														</label>
+													</div>
+
+													<div class="field">
+														<input type="checkbox" name="group7" id="group7_check4">
+														<label for="group7_check4">
+															<div class="name">Без опыта</div>
+															<div class="count">1 288</div>
+														</label>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="item">
+												<div class="title active">
+													<span>Возраст</span>
+													<div class="icon">
+														<svg><use xlink:href="images/sprite.svg#ic_arrow_down"></use></svg>
+													</div>
+												</div>
+
+												<div class="data" style="display: block;">
+													<div class="field row">
+														<input type="text" name="" value="" class="input" placeholder="от">
+
+														<input type="text" name="" value="" class="input" placeholder="до">
+													</div>
+												</div>
+											</div>
+
+
+											<div class="item">
+												<div class="title active">
+													<span>Тип занятости</span>
+													<div class="icon">
+														<svg><use xlink:href="images/sprite.svg#ic_arrow_down"></use></svg>
+													</div>
+												</div>
+
+												<div class="data" style="display: block;">
+													<div class="field">
+														<input type="checkbox" name="group5" id="group5_check1">
+														<label for="group5_check1">
+															<div class="name">Полная</div>
+															<div class="count">1 288</div>
+														</label>
+													</div>
+
+													<div class="field">
+														<input type="checkbox" name="group5" id="group5_check2">
+														<label for="group5_check2">
+															<div class="name">Частичная</div>
+															<div class="count">2 034</div>
+														</label>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="item">
+												<div class="title active">
+													<span>График работы</span>
+													<div class="icon">
+														<svg><use xlink:href="images/sprite.svg#ic_arrow_down"></use></svg>
+													</div>
+												</div>
+
+												<div class="data" style="display: block;">
+													<div class="field">
+														<input type="checkbox" name="group6" id="group6_check1">
+														<label for="group6_check1">
+															<div class="name">Полный день</div>
+															<div class="count">1 288</div>
+														</label>
+													</div>
+
+													<div class="field">
+														<input type="checkbox" name="group6" id="group6_check2">
+														<label for="group6_check2">
+															<div class="name">Вахтовый метод</div>
+															<div class="count">2 034</div>
+														</label>
+													</div>
+
+													<div class="field">
+														<input type="checkbox" name="group6" id="group6_check3">
+														<label for="group6_check3">
+															<div class="name">Сменный график</div>
+															<div class="count">1 288</div>
+														</label>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="item">
+												<div class="title active">
+													<span>Гражданство</span>
+													<div class="icon">
+														<svg><use xlink:href="images/sprite.svg#ic_arrow_down"></use></svg>
+													</div>
+												</div>
+
+												<div class="data" style="display: block;">
+													<div class="field">
+														<input type="text" name="" value="" class="input" placeholder="Страна">
+													</div>
+												</div>
+											</div>
+
+
+											<div class="submit">
+												<button type="reset" class="reset_btn">Сбросить фильтры</button>
+											</div>
+										</form>
+									</div>
+
+
+									<div class="ad">
+										<img data-src="images/tmp/aside_ad.jpg" alt="" class="lozad">
+									</div>
+								</aside>
+
+
+								<section class="content">
+									<section class="ads_head row">
+										<div class="sort">
+											<select name="">
+												<option value="1" selected>По соответствию</option>
+												<option value="2">Вариант 2</option>
+												<option value="3">Вариант 3</option>
+												<option value="4">Вариант 4</option>
+											</select>
+
+											<div class="select_arrow">
+												<svg><use xlink:href="images/sprite.svg#ic_arrow_down"></use></svg>
+											</div>
+										</div>
+
+										<div class="period">
+											<select name="">
+												<option value="1" selected>Весь период</option>
+												<option value="2">Вариант 2</option>
+												<option value="3">Вариант 3</option>
+												<option value="4">Вариант 4</option>
+											</select>
+
+											<div class="select_arrow">
+												<svg><use xlink:href="images/sprite.svg#ic_arrow_down"></use></svg>
+											</div>
+										</div>
+									</section>
+
+
+									<section class="resumies">
+										<div class="list">
+											<div class="resume premium">
+												<div class="info">
+													<div class="sticker">
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_star"></use></svg>
+														<span>Премиум объявление</span>
+													</div>
+
+													<div class="title">
+														<a href="/">Экскаваторщик</a>
+													</div>
+
+													<button class="favorite_btn">
+														<svg><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+														<svg><use xlink:href="images/sprite.svg#ic_favorite2"></use></svg>
+													</button>
+
+													<div class="person">
+														<div class="name">
+															<svg class="icon"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+															<span>СЕРГЕЙ ИВАНОВ</span>
+														</div>
+														<div>| 44 года | Тула, готов к переезду: Москва, Егорьевск и <a href="#">ещё 5 городов</a></div>
+													</div>
+
+													<div class="avatar">
+														<img data-src="images/no_photo.png" alt="" class="lozad">
+													</div>
+
+													<div class="price">
+														<div>90 000 р./месяц</div>
+													</div>
+
+													<div class="features">
+														<div>
+															<div class="name">Опыт работы</div>
+															<div class="val">9 лет 11 месяцев</div>
+														</div>
+
+														<div>
+															<div class="name">Последнее место работы</div>
+															<div class="val">
+																<div><b>АО "Спецстроймеханизация",</b> Январь 2019 — по настоящее время</div>
+																<div><u><b>Экскаваторщик</b></u></div>
+															</div>
+														</div>
+													</div>
+
+													<div class="date">
+														<div>Обновлено 17 ноября 2019 04:54</div>
+														<div>Был на сайте сегодня в 02:55</div>
+													</div>
+
+													<div class="btns">
+														<button class="btn big_w invite_btn orange">
+															<span>Пригласить на собеседование</span>
+															<span>Приглашён на собеседование</span>
+														</button>
+
+														<div class="modal_cont">
+															<button class="btn mini_modal_btn">Показать контакты</button>
+
+															<div class="mini_modal" id="call_modal">
+																<div class="call_info">
+																	<button class="close_btn"></button>
+
+																	<div class="name">Константин Константинопольский</div>
+
+																	<div class="phone">
+																		<a href="tel:+79958836940">+ 7 (995) 883-69-40</a>
+																	</div>
+
+																	<div class="email">
+																		<a href="mailto:jobme@please.ru">jobme@please.ru</a>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="resume">
+												<div class="info">
+													<div class="title">
+														<a href="/">Экскаваторщик</a>
+													</div>
+
+													<button class="favorite_btn">
+														<svg><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+														<svg><use xlink:href="images/sprite.svg#ic_favorite2"></use></svg>
+													</button>
+
+													<div class="person">
+														<div class="name">
+															<span>КОНСТАНТИН КОНСТАНТИНОПОЛЬСКИ</span>
+														</div>
+														<div>| 44 года | Тула, готов к переезду: Москва, Егорьевск и <a href="#">ещё 5 городов</a></div>
+													</div>
+
+													<div class="avatar">
+														<img data-src="images/no_photo.png" alt="" class="lozad">
+													</div>
+
+													<div class="price">
+														<div>90 000 р./месяц</div>
+													</div>
+
+													<div class="features">
+														<div>
+															<div class="name">Опыт работы</div>
+															<div class="val">9 лет 11 месяцев</div>
+														</div>
+
+														<div>
+															<div class="name">Последнее место работы</div>
+															<div class="val">
+																<div><b>АО "Спецстроймеханизация",</b> Январь 2019 — по настоящее время</div>
+																<div><u><b>Экскаваторщик</b></u></div>
+															</div>
+														</div>
+
+														<div class="desc">Работа в службе технического заказчика с проектными институтами гг. Тулы, Саратова и Москвы по прохождению и сопровождению проектов стадии ' П " и "Р" в Мосгособлэкспертизе, получение положительного заключения, подбор подрядных организаций на основе тендерных процедур, контроль за ходом строительства объектов, оформление объёмов по КС-2 и КС-3</div>
+													</div>
+
+													<div class="date">
+														<div>Обновлено 17 ноября 2019 04:54</div>
+														<div class="now">Сейчас на сайте</div>
+													</div>
+
+													<div class="btns">
+														<button class="btn big_w invite_btn orange">
+															<span>Пригласить на собеседование</span>
+															<span>Приглашён на собеседование</span>
+														</button>
+
+														<div class="modal_cont">
+															<button class="btn mini_modal_btn">Показать контакты</button>
+
+															<div class="mini_modal" id="call_modal">
+																<div class="call_info">
+																	<button class="close_btn"></button>
+
+																	<div class="name">Константин Константинопольский</div>
+
+																	<div class="phone">
+																		<a href="tel:+79958836940">+ 7 (995) 883-69-40</a>
+																	</div>
+
+																	<div class="email">
+																		<a href="mailto:jobme@please.ru">jobme@please.ru</a>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="resume">
+												<div class="info">
+													<div class="title">
+														<a href="/">Экскаваторщик</a>
+													</div>
+
+													<button class="favorite_btn">
+														<svg><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+														<svg><use xlink:href="images/sprite.svg#ic_favorite2"></use></svg>
+													</button>
+
+													<div class="person">
+														<div class="name">
+															<span>КОНСТАНТИН КОНСТАНТИНОПОЛЬСКИ</span>
+														</div>
+														<div>| 44 года | Тула, готов к переезду: Москва, Егорьевск и <a href="#">ещё 5 городов</a></div>
+													</div>
+
+													<div class="avatar">
+														<img data-src="images/no_photo.png" alt="" class="lozad">
+													</div>
+
+													<div class="price">
+														<div>90 000 р./месяц</div>
+													</div>
+
+													<div class="features">
+														<div>
+															<div class="name">Опыт работы</div>
+															<div class="val">9 лет 11 месяцев</div>
+														</div>
+
+														<div>
+															<div class="name">Последнее место работы</div>
+															<div class="val">
+																<div><b>АО "Спецстроймеханизация",</b> Январь 2019 — по настоящее время</div>
+																<div><u><b>Экскаваторщик</b></u></div>
+															</div>
+														</div>
+													</div>
+
+													<div class="date">
+														<div>Обновлено 17 ноября 2019 04:54</div>
+														<div class="now">Сейчас на сайте</div>
+													</div>
+
+													<div class="btns">
+														<button class="btn big_w invite_btn orange">
+															<span>Пригласить на собеседование</span>
+															<span>Приглашён на собеседование</span>
+														</button>
+
+														<div class="modal_cont">
+															<button class="btn mini_modal_btn">Показать контакты</button>
+
+															<div class="mini_modal" id="call_modal">
+																<div class="call_info">
+																	<button class="close_btn"></button>
+
+																	<div class="name">Константин Константинопольский</div>
+
+																	<div class="phone">
+																		<a href="tel:+79958836940">+ 7 (995) 883-69-40</a>
+																	</div>
+
+																	<div class="email">
+																		<a href="mailto:jobme@please.ru">jobme@please.ru</a>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="resume">
+												<div class="info">
+													<div class="title">
+														<a href="/">Экскаваторщик</a>
+													</div>
+
+													<button class="favorite_btn">
+														<svg><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+														<svg><use xlink:href="images/sprite.svg#ic_favorite2"></use></svg>
+													</button>
+
+													<div class="person">
+														<div class="name">
+															<span>КОНСТАНТИН КОНСТАНТИНОПОЛЬСКИ</span>
+														</div>
+														<div>| 44 года | Тула, готов к переезду: Москва, Егорьевск и <a href="#">ещё 5 городов</a></div>
+													</div>
+
+													<div class="avatar">
+														<img data-src="images/no_photo.png" alt="" class="lozad">
+													</div>
+
+													<div class="price">
+														<div>90 000 р./месяц</div>
+													</div>
+
+													<div class="features">
+														<div>
+															<div class="name">Опыт работы</div>
+															<div class="val">9 лет 11 месяцев</div>
+														</div>
+
+														<div>
+															<div class="name">Последнее место работы</div>
+															<div class="val">
+																<div><b>АО "Спецстроймеханизация",</b> Январь 2019 — по настоящее время</div>
+																<div><u><b>Экскаваторщик</b></u></div>
+															</div>
+														</div>
+													</div>
+
+													<div class="date">
+														<div>Обновлено 17 ноября 2019 04:54</div>
+														<div class="now">Сейчас на сайте</div>
+													</div>
+
+													<div class="btns">
+														<button class="btn big_w invite_btn orange">
+															<span>Пригласить на собеседование</span>
+															<span>Приглашён на собеседование</span>
+														</button>
+
+														<div class="modal_cont">
+															<button class="btn mini_modal_btn">Показать контакты</button>
+
+															<div class="mini_modal" id="call_modal">
+																<div class="call_info">
+																	<button class="close_btn"></button>
+
+																	<div class="name">Константин Константинопольский</div>
+
+																	<div class="phone">
+																		<a href="tel:+79958836940">+ 7 (995) 883-69-40</a>
+																	</div>
+
+																	<div class="email">
+																		<a href="mailto:jobme@please.ru">jobme@please.ru</a>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="resume">
+												<div class="info">
+													<div class="title">
+														<a href="/">Экскаваторщик</a>
+													</div>
+
+													<button class="favorite_btn">
+														<svg><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+														<svg><use xlink:href="images/sprite.svg#ic_favorite2"></use></svg>
+													</button>
+
+													<div class="person">
+														<div class="name">
+															<span>КОНСТАНТИН КОНСТАНТИНОПОЛЬСКИ</span>
+														</div>
+														<div>| 44 года | Тула, готов к переезду: Москва, Егорьевск и <a href="#">ещё 5 городов</a></div>
+													</div>
+
+													<div class="avatar">
+														<img data-src="images/no_photo.png" alt="" class="lozad">
+													</div>
+
+													<div class="price">
+														<div>90 000 р./месяц</div>
+													</div>
+
+													<div class="features">
+														<div>
+															<div class="name">Опыт работы</div>
+															<div class="val">9 лет 11 месяцев</div>
+														</div>
+
+														<div>
+															<div class="name">Последнее место работы</div>
+															<div class="val">
+																<div><b>АО "Спецстроймеханизация",</b> Январь 2019 — по настоящее время</div>
+																<div><u><b>Экскаваторщик</b></u></div>
+															</div>
+														</div>
+													</div>
+
+													<div class="date">
+														<div>Обновлено 17 ноября 2019 04:54</div>
+														<div class="now">Сейчас на сайте</div>
+													</div>
+
+													<div class="btns">
+														<button class="btn big_w invite_btn orange">
+															<span>Пригласить на собеседование</span>
+															<span>Приглашён на собеседование</span>
+														</button>
+
+														<div class="modal_cont">
+															<button class="btn mini_modal_btn">Показать контакты</button>
+
+															<div class="mini_modal" id="call_modal">
+																<div class="call_info">
+																	<button class="close_btn"></button>
+
+																	<div class="name">Константин Константинопольский</div>
+
+																	<div class="phone">
+																		<a href="tel:+79958836940">+ 7 (995) 883-69-40</a>
+																	</div>
+
+																	<div class="email">
+																		<a href="mailto:jobme@please.ru">jobme@please.ru</a>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+
+
+											<div class="resume">
+												<div class="info">
+													<div class="title">
+														<a href="/">Экскаваторщик</a>
+													</div>
+
+													<button class="favorite_btn">
+														<svg><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+														<svg><use xlink:href="images/sprite.svg#ic_favorite2"></use></svg>
+													</button>
+
+													<div class="person">
+														<div class="name">
+															<span>КОНСТАНТИН КОНСТАНТИНОПОЛЬСКИ</span>
+														</div>
+														<div>| 44 года | Тула, готов к переезду: Москва, Егорьевск и <a href="#">ещё 5 городов</a></div>
+													</div>
+
+													<div class="avatar">
+														<img data-src="images/no_photo.png" alt="" class="lozad">
+													</div>
+
+													<div class="price">
+														<div>90 000 р./месяц</div>
+													</div>
+
+													<div class="features">
+														<div>
+															<div class="name">Опыт работы</div>
+															<div class="val">9 лет 11 месяцев</div>
+														</div>
+
+														<div>
+															<div class="name">Последнее место работы</div>
+															<div class="val">
+																<div><b>АО "Спецстроймеханизация",</b> Январь 2019 — по настоящее время</div>
+																<div><u><b>Экскаваторщик</b></u></div>
+															</div>
+														</div>
+													</div>
+
+													<div class="date">
+														<div>Обновлено 17 ноября 2019 04:54</div>
+														<div class="now">Сейчас на сайте</div>
+													</div>
+
+													<div class="btns">
+														<button class="btn big_w invite_btn orange">
+															<span>Пригласить на собеседование</span>
+															<span>Приглашён на собеседование</span>
+														</button>
+
+														<div class="modal_cont">
+															<button class="btn mini_modal_btn">Показать контакты</button>
+
+															<div class="mini_modal" id="call_modal">
+																<div class="call_info">
+																	<button class="close_btn"></button>
+
+																	<div class="name">Константин Константинопольский</div>
+
+																	<div class="phone">
+																		<a href="tel:+79958836940">+ 7 (995) 883-69-40</a>
+																	</div>
+
+																	<div class="email">
+																		<a href="mailto:jobme@please.ru">jobme@please.ru</a>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+
+										<section class="pagination">
+											<button class="load_more_btn">Показать ещё</button>
+
+											<div class="links">
+												<a href="/" class="prev">
+													<div class="icon">
+														<svg><use xlink:href="images/sprite.svg#ic_arrow_left"></use></svg>
+													</div>
+													<span>В начало</span>
+												</a>
+
+												<a class="active">1</a>
+												<a href="/">2</a>
+												<a href="/">3</a>
+												<div class="sep">...</div>
+												<a href="/">14</a>
+												<a href="/">15</a>
+												<a href="/">16</a>
+												<a href="/">17</a>
+												<a href="/">18</a>
+												<a href="/">19</a>
+												<a href="/" class="visible">20</a>
+
+												<a href="/" class="next">
+													<span>Дальше</span>
+													<div class="icon">
+														<svg><use xlink:href="images/sprite.svg#ic_arrow_left"></use></svg>
+													</div>
+												</a>
+											</div>
+										</section>
+									</section>
+								</section>
+							</div>
+						</section>
+					</div>
+
+
+					<div class="tab_content level1" id="tab3">
+						<section class="companies_filter">
+							<div class="cont">
+								<form action="" class="form">
+									<div class="type">
+										<div class="label">Тип компании</div>
+
+										<div class="field">
+											<select name="">
+												<option value="1" selected>Все</option>
+												<option value="2">Вариант 2</option>
+												<option value="3">Вариант 3</option>
+												<option value="4">Вариант 4</option>
+											</select>
+
+											<div class="select_arrow">
+												<svg><use xlink:href="images/sprite.svg#ic_arrow_down"></use></svg>
+											</div>
+										</div>
+									</div>
+
+									<div class="alphabet">
+										<div class="label">Все</div>
+
+										<div class="field">
+											<div class="row">
+												<div><a href="/">А</a></div>
+												<div><a href="/">Б</a></div>
+												<div><a href="/">В</a></div>
+												<div><a href="/">Г</a></div>
+												<div><a href="/">Д</a></div>
+												<div><a href="/">Е</a></div>
+												<div><a class="active">Ж</a></div>
+												<div><a href="/">З</a></div>
+												<div><a href="/">И</a></div>
+												<div><a href="/">Й</a></div>
+												<div><a href="/">К</a></div>
+												<div><a href="/">Л</a></div>
+												<div><a href="/">М</a></div>
+												<div><a href="/">Н</a></div>
+												<div><a href="/">О</a></div>
+												<div><a href="/">П</a></div>
+												<div><a href="/">Р</a></div>
+												<div><a href="/">С</a></div>
+												<div><a href="/">Т</a></div>
+												<div><a href="/">У</a></div>
+												<div><a href="/">Ф</a></div>
+												<div><a href="/">Х</a></div>
+												<div><a href="/">Ц</a></div>
+												<div><a href="/">Ч</a></div>
+												<div><a href="/">Ш</a></div>
+												<div><a href="/">Щ</a></div>
+												<div><a href="/">Э</a></div>
+												<div><a href="/">Ю</a></div>
+												<div><a href="/">Я</a></div>
+											</div>
+
+											<div class="row">
+												<div><a href="/">A</a></div>
+												<div><a href="/">B</a></div>
+												<div><a href="/">C</a></div>
+												<div><a href="/">D</a></div>
+												<div><a href="/">E</a></div>
+												<div><a href="/">F</a></div>
+												<div><a href="/">G</a></div>
+												<div><a href="/">H</a></div>
+												<div><a href="/">I</a></div>
+												<div><a href="/">J</a></div>
+												<div><a href="/">K</a></div>
+												<div><a href="/">L</a></div>
+												<div><a href="/">M</a></div>
+												<div><a href="/">N</a></div>
+												<div><a href="/">O</a></div>
+												<div><a href="/">P</a></div>
+												<div><a href="/">Q</a></div>
+												<div><a href="/">R</a></div>
+												<div><a href="/">S</a></div>
+												<div><a href="/">T</a></div>
+												<div><a href="/">U</a></div>
+												<div><a href="/">V</a></div>
+												<div><a href="/">W</a></div>
+												<div><a href="/"></a></div>
+												<div><a href="/">X</a></div>
+												<div><a href="/">Y</a></div>
+												<div><a href="/">Z</a></div>
+											</div>
+
+											<div class="row">
+												<div><a href="/">0-9</a></div>
+											</div>
+										</div>
+									</div>
+
+									<div class="region">
+										<div class="label">Регион</div>
+
+										<div class="field">
+											<div class="selected">
+												<div class="vals">
+													<button>
+														<span>москва</span>
+														<span class="icon"></span>
+													</button>
+
+													<button>
+														<span>московская область</span>
+														<span class="icon"></span>
+													</button>
+												</div>
+											</div>
+
+											<button type="button" class="add_change_btn modal_btn" data-content="#region_modal">Выбрать регион из списка</button>
+										</div>
+									</div>
+								</form>
+							</div>
+						</section>
+
+
+						<section class="companies_list">
+							<div class="cont">
+								<div class="search_count">Найдено 143 284 компаний</div>
+
+								<div class="list">
+									<div class="company premium">
+										<div class="thumb">
+											<img data-src="images/no_logo.png" alt="" class="no_image lozad">
+										</div>
+
+										<div class="data">
+											<div class="name">
+												<a href="/">ООО «Альфа СпецСтрой Альянс»</a>
+											</div>
+
+											<div class="stickers">
+												<div class="sticker">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													<span>Проверена СпецПорталом</span>
+												</div>
+
+												<div class="sticker">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_dilear"></use></svg>
+													<span>Официальный диллер</span>
+												</div>
+											</div>
+
+											<div class="desc">10 лет компания СпецТехАренда приходит на помощь всем, кому необходимо арендовать технику специального назначения. Каждый год мы совершенствуем уровень предоставляемых услуг и формируем технологичный автопарк из новых узконаправленных моделей спецтехники. Выгодные условия для каждого клиента и круглосуточная поддержка — основополагающие принципы СТА.</div>
+
+											<div class="register_date">На СпецПортале c мая 2021 г</div>
+										</div>
+
+										<div class="links">
+											<div class="title">Объявления</div>
+
+											<div class="items">
+												<div><a href="/">Аренда (120)</a></div>
+												<div><a href="/">Продажа (392)</a></div>
+												<div><a href="/">Оборудование (12)</a></div>
+												<div><a href="/">Вакансии (3)</a></div>
+											</div>
+										</div>
+									</div>
+
+
+									<div class="company premium">
+										<div class="thumb bg_white">
+											<img data-src="images/tmp/company_logo1.png" alt="" class="lozad">
+										</div>
+
+										<div class="data">
+											<div class="name">
+												<a href="/">ООО «Альфа СпецСтрой Альянс»</a>
+											</div>
+
+											<div class="stickers">
+												<div class="sticker">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													<span>Проверена СпецПорталом</span>
+												</div>
+											</div>
+
+											<div class="desc">10 лет компания СпецТехАренда приходит на помощь всем, кому необходимо арендовать технику специального назначения. Каждый год мы совершенствуем уровень предоставляемых услуг и формируем технологичный автопарк из новых узконаправленных моделей спецтехники. Выгодные условия для каждого клиента и круглосуточная поддержка — основополагающие принципы СТА.</div>
+
+											<div class="register_date">На СпецПортале c мая 2021 г</div>
+										</div>
+
+										<div class="links">
+											<div class="title">Объявления</div>
+
+											<div class="items">
+												<div><a href="/">Аренда (120)</a></div>
+												<div><a href="/">Продажа (392)</a></div>
+												<div><a href="/">Оборудование (12)</a></div>
+												<div><a href="/">Вакансии (3)</a></div>
+											</div>
+										</div>
+									</div>
+
+
+									<div class="company premium">
+										<div class="thumb bg_white">
+											<img data-src="images/tmp/company_logo1.png" alt="" class="lozad">
+										</div>
+
+										<div class="data">
+											<div class="name">
+												<a href="/">ООО «Альфа СпецСтрой Альянс»</a>
+											</div>
+
+											<div class="stickers">
+												<div class="sticker">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													<span>Проверена СпецПорталом</span>
+												</div>
+											</div>
+
+											<div class="desc">10 лет компания СпецТехАренда приходит на помощь всем, кому необходимо арендовать технику специального назначения. Каждый год мы совершенствуем уровень предоставляемых услуг и формируем технологичный автопарк из новых узконаправленных моделей спецтехники. Выгодные условия для каждого клиента и круглосуточная поддержка — основополагающие принципы СТА.</div>
+
+											<div class="register_date">На СпецПортале c мая 2021 г</div>
+										</div>
+
+										<div class="links">
+											<div class="title">Объявления</div>
+
+											<div class="items">
+												<div><a href="/">Аренда (120)</a></div>
+												<div><a href="/">Продажа (392)</a></div>
+												<div><a href="/">Оборудование (12)</a></div>
+												<div><a href="/">Вакансии (3)</a></div>
+											</div>
+										</div>
+									</div>
+
+
+									<div class="company">
+										<div class="thumb">
+											<img data-src="images/no_photo.png" alt="" class="no_image lozad">
+										</div>
+
+										<div class="data">
+											<div class="name">
+												<a href="/">ИП Владимир константинопольский</a>
+											</div>
+
+											<div class="stickers">
+												<div class="sticker">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													<span>Проверена СпецПорталом</span>
+												</div>
+											</div>
+
+											<div class="desc">10 лет компания СпецТехАренда приходит на помощь всем, кому необходимо арендовать технику специального назначения. Каждый год мы совершенствуем уровень предоставляемых услуг и формируем технологичный автопарк из новых узконаправленных моделей спецтехники. Выгодные условия для каждого клиента и круглосуточная поддержка — основополагающие принципы СТА.</div>
+
+											<div class="register_date">На СпецПортале c мая 2021 г</div>
+										</div>
+
+										<div class="links">
+											<div class="title">Объявления</div>
+
+											<div class="items">
+												<div><a href="/">Аренда (120)</a></div>
+												<div><a href="/">Продажа (392)</a></div>
+												<div><a href="/">Оборудование (12)</a></div>
+											</div>
+										</div>
+									</div>
+
+
+									<div class="company">
+										<div class="thumb">
+											<img data-src="images/no_photo.png" alt="" class="no_image lozad">
+										</div>
+
+										<div class="data">
+											<div class="name">
+												<a href="/">ИП Владимир константинопольский</a>
+											</div>
+
+											<div class="stickers">
+												<div class="sticker">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													<span>Проверена СпецПорталом</span>
+												</div>
+											</div>
+
+											<div class="desc">10 лет компания СпецТехАренда приходит на помощь всем, кому необходимо арендовать технику специального назначения. Каждый год мы совершенствуем уровень предоставляемых услуг и формируем технологичный автопарк из новых узконаправленных моделей спецтехники. Выгодные условия для каждого клиента и круглосуточная поддержка — основополагающие принципы СТА.</div>
+
+											<div class="register_date">На СпецПортале c мая 2021 г</div>
+										</div>
+
+										<div class="links">
+											<div class="title">Объявления</div>
+
+											<div class="items">
+												<div><a href="/">Аренда (120)</a></div>
+												<div><a href="/">Продажа (392)</a></div>
+												<div><a href="/">Оборудование (12)</a></div>
+											</div>
+										</div>
+									</div>
+
+
+									<div class="company">
+										<div class="thumb">
+											<img data-src="images/no_photo.png" alt="" class="no_image lozad">
+										</div>
+
+										<div class="data">
+											<div class="name">
+												<a href="/">Николай баширов</a>
+											</div>
+
+											<div class="register_date">На СпецПортале c мая 2021 г</div>
+										</div>
+
+										<div class="links">
+											<div class="title">Объявления</div>
+
+											<div class="items">
+												<div><a href="/">Резюме (1)</a></div>
+											</div>
+										</div>
+									</div>
+
+
+									<div class="company">
+										<div class="thumb">
+											<img data-src="images/no_photo.png" alt="" class="no_image lozad">
+										</div>
+
+										<div class="data">
+											<div class="name">
+												<a href="/">ИП Владимир константинопольский</a>
+											</div>
+
+											<div class="stickers">
+												<div class="sticker">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+													<span>Проверена СпецПорталом</span>
+												</div>
+											</div>
+
+											<div class="desc">10 лет компания СпецТехАренда приходит на помощь всем, кому необходимо арендовать технику специального назначения. Каждый год мы совершенствуем уровень предоставляемых услуг и формируем технологичный автопарк из новых узконаправленных моделей спецтехники. Выгодные условия для каждого клиента и круглосуточная поддержка — основополагающие принципы СТА.</div>
+
+											<div class="register_date">На СпецПортале c мая 2021 г</div>
+										</div>
+
+										<div class="links">
+											<div class="title">Объявления</div>
+
+											<div class="items">
+												<div><a href="/">Аренда (120)</a></div>
+												<div><a href="/">Продажа (392)</a></div>
+												<div><a href="/">Оборудование (12)</a></div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="pagination">
+									<button class="load_more_btn">Показать ещё</button>
+
+									<div class="links">
+										<a href="/" class="prev">
+											<div class="icon">
+												<svg><use xlink:href="images/sprite.svg#ic_arrow_left"></use></svg>
+											</div>
+											<span>В начало</span>
+										</a>
+
+										<a class="active">1</a>
+										<a href="/">2</a>
+										<a href="/">3</a>
+										<a href="/">4</a>
+										<a href="/">5</a>
+										<a href="/">6</a>
+										<a href="/">7</a>
+										<a href="/">8</a>
+										<div class="sep">...</div>
+										<a href="/">24</a>
+										<a href="/">25</a>
+										<a href="/">26</a>
+										<a href="/">27</a>
+										<a href="/">28</a>
+										<a href="/">29</a>
+										<a href="/" class="visible">30</a>
+
+										<a href="/" class="next">
+											<span>Дальше</span>
+											<div class="icon">
+												<svg><use xlink:href="images/sprite.svg#ic_arrow_left"></use></svg>
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</section>
+					</div>
+				</section>
+
+
+				<section class="order_form">
+					<div class="cont">
+						<div class="block_head">
+							<div class="title">Не нашли, что искали? Оставьте заявку и мы подберём для вас нужную технику для аренды</div>
+						</div>
+
+						<form action="" class="form">
+							<div class="cols row">
+								<div class="col">
+									<div class="line">
+										<div class="field">
+											<select name="">
+												<option value="1" selected>Экскаваторы</option>
+												<option value="2">Вариант 2</option>
+												<option value="3">Вариант 3</option>
+												<option value="4">Вариант 4</option>
+											</select>
+
+											<div class="select_arrow">
+												<svg><use xlink:href="images/sprite.svg#ic_arrow_down"></use></svg>
+											</div>
+										</div>
+									</div>
+
+									<div class="line">
+										<div class="field">
+											<input type="text" name="" value="" class="input" placeholder="Имя">
+										</div>
+									</div>
+
+									<div class="line">
+										<div class="field">
+											<input type="tel" name="" value="" class="input" placeholder="Телефон">
+										</div>
+									</div>
+
+									<div class="line">
+										<div class="field">
+											<input type="email" name="" value="" class="input" placeholder="E-mail">
+										</div>
+									</div>
+								</div>
+
+								<div class="col">
+									<div class="line">
+										<div class="field">
+											<textarea name="" placeholder="Описания заявки"></textarea>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="cols row">
+								<div class="col">
+									<div class="agree">
+										<input type="checkbox" name="agree" id="agree_check" checked>
+										<label for="agree_check">
+											Согласен на обработку персональных данных в соответствии<br> с <a href="/" target="_blank">пользовательским соглашением</a>
+										</label>
+									</div>
+								</div>
+
+								<div class="col">
+									<div class="submit">
+										<button type="submit" class="submit_btn">Оставить заявку</button>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</section>
+			</div>
+
+
+			<footer>
+				<div class="cont row">
+					<div class="col_left">
+						<div class="logo">
+							<img src="images/logo.svg" alt="">
+						</div>
+
+						<div class="desc">Сервис по подбору спецтехники, материалов, оборудования и операторов</div>
+
+						<div class="copyright">&copy;2021. СпецПортал. Все права защищены</div>
+					</div>
+
+
+					<div class="menu">
+						<div class="col">
+							<div><a href="/">Аренда спецтехники</a></div>
+							<div><a href="/">Продажа спецтехники</a></div>
+							<div><a href="/">Материалы</a></div>
+							<div><a href="/">Оборудование для спецтехники</a></div>
+							<div><a href="/">Операторы спецтехники</a></div>
+							<div><a href="/">Компании</a></div>
+						</div>
+
+						<div class="col">
+							<div><a href="/">О сервисе</a></div>
+							<div><a href="/">Блог</a></div>
+							<div><a href="/">Контакты</a></div>
+							<div><a href="/">
+								<span>Спецразмещение</span>
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_star"></use></svg>
+							</a></div>
+						</div>
+					</div>
+
+
+					<div class="col_right">
+						<div class="btns">
+							<button class="btn modal_btn" data-content="#order_modal">Оставить заявку</button>
+							<button class="btn orange">Разместить объявление</button>
+						</div>
+
+						<div class="links">
+							<div><a href="/">Политики конфиденциальности</a></div>
+							<div><a href="/">Пользовательское соглашение</a></div>
+							<div><a href="/">Публичная оферта</a></div>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+
+			<div class="overlay"></div>
+		</div>
+
+
+		<div class="supports_error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+
+		<section class="modal" id="order_modal">
+			<div class="modal_title">Заявка на аренду мини-экскаватора Hitachi ZX50R</div>
+
+			<div class="modal_desc">Арендодатель получит вашу заявку и свяжется с вами</div>
+
+			<div class="modal_data">
+				<form action="" class="form">
+					<div class="line">
+						<div class="field">
+							<input type="text" name="" value="" class="input" placeholder="Имя">
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<input type="tel" name="" value="" class="input" placeholder="Телефон">
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<input type="email" name="" value="" class="input" placeholder="E-mail">
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<input type="text" name="" value="" class="input" placeholder="Дата начала аренды">
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<textarea name="" placeholder="Описание заявки"></textarea>
+						</div>
+					</div>
+
+					<div class="agree">
+						<input type="checkbox" name="agree" id="order_agree_check" checked>
+						<label for="order_agree_check">
+							Согласен на обработку персональных данных в соответствии с <a href="/" target="_blank">пользовательским соглашением</a>
+						</label>
+					</div>
+
+					<div class="submit">
+						<button type="submit" class="submit_btn">Отправить заявку</button>
+					</div>
+				</form>
+
+				<div class="links">
+					<div><a href="/">Создать аккаунт и отправить заявку</a></div>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="modal" id="order2_modal">
+			<div class="modal_title">Заявка на аренду мини-экскаватора Hitachi ZX50R</div>
+
+			<div class="modal_desc">Арендодатель получит вашу заявку и свяжется с вами</div>
+
+			<div class="modal_data">
+				<form action="" class="form">
+					<div class="line">
+						<div class="field">
+							<input type="text" name="" value="" class="input" placeholder="Дата начала аренды">
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<textarea name="" placeholder="Описание заявки"></textarea>
+						</div>
+					</div>
+
+					<div class="submit">
+						<button type="submit" class="submit_btn">Отправить заявку</button>
+					</div>
+				</form>
+			</div>
+		</section>
+
+
+		<section class="modal" id="region_modal">
+			<div class="modal_title">Регион поиска</div>
+
+			<div class="modal_data">
+				<div class="selected">
+					<div class="title">Выбранные регионы</div>
+
+					<div class="vals">
+						<button>
+							<span>москва</span>
+							<span class="icon"></span>
+						</button>
+
+						<button>
+							<span>московская область</span>
+							<span class="icon"></span>
+						</button>
+					</div>
+				</div>
+
+				<div class="data">
+					<div class="title">Выберите регион(ы) для поиска</div>
+
+					<div class="search">
+						<form action="">
+							<input type="text" name="" value="" class="input" placeholder="Начните вводить название города для поиска">
+						</form>
+					</div>
+
+					<div class="quike_list">
+						<div><button>Москва</button></div>
+						<div><button>Санкт-Петербург</button></div>
+						<div><button>Воронеж</button></div>
+						<div><button>Волгоград</button></div>
+						<div><button>Ростов-на-Дону</button></div>
+						<div><button>Казань</button></div>
+						<div><button>Нижний Новгород</button></div>
+						<div><button>Самара</button></div>
+						<div><button>Пермь</button></div>
+						<div><button>Уфа</button></div>
+						<div><button>Екатеринбург</button></div>
+						<div><button>Челябинск</button></div>
+						<div><button>Красноярск</button></div>
+						<div><button>Новосибирск</button></div>
+						<div><button>Омск</button></div>
+					</div>
+
+					<div class="lists">
+						<div class="list">
+							<div>
+								<div class="name">Алтайский край</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Амурская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Архангельская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Астраханская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Белгородская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Брянская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Владимирская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Волгоградская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Алтайский край</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Амурская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Архангельская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Астраханская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Белгородская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Брянская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Владимирская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Волгоградская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+						</div>
+
+
+						<div class="list">
+							<div>
+								<div class="name">Алтайский край</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Амурская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Архангельская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Астраханская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Белгородская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Брянская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Владимирская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Волгоградская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Алтайский край</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Амурская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Архангельская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Астраханская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Белгородская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Брянская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Владимирская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Волгоградская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/lozad.min.js"></script>
+		<script src="js/swiper-bundle.min.js"></script>
+		<script src="js/fancybox.min.js"></script>
+		<script src="js/inputmask.min.js"></script>
+		<script src="js/nice-select.js"></script>
+		<script src="js/sticky-kit.min.js"></script>
+		<script src="js/select2.full.min.js"></script>
+		<script src="js/moment.min.js"></script>
+		<script src="js/daterangepicker.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>

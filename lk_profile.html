@@ -1,0 +1,1183 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#4654B6">
+		<meta name="theme-color" content="#4654B6">
+
+		<!-- Подключение шрифтов с гугла -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="css/swiper-bundle.min.css">
+		<link rel="stylesheet" href="css/swiper.css">
+		<link rel="stylesheet" href="css/fancybox.css">
+		<link rel="stylesheet" href="css/select2.min.css">
+		<link rel="stylesheet" href="css/daterangepicker.css">
+		<link rel="stylesheet" href="css/styles.css">
+
+		<link rel="stylesheet" href="css/response_1247.css" media="print, (max-width: 1247px)">
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)">
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)">
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)">
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header>
+					<div class="info">
+						<div class="cont row">
+							<a href="/" class="logo">
+								<img src="images/logo.svg" alt="">
+							</a>
+
+							<div class="search">
+								<form action="">
+									<div class="type">
+										<select name="">
+											<option value="1" selected>Аренда</option>
+											<option value="2">Продажа</option>
+											<option value="3">Материалы</option>
+											<option value="4">Оборудование</option>
+											<option value="5">Вакансии</option>
+											<option value="6">Резюме</option>
+											<option value="7">Компании</option>
+											<option value="8">Везде</option>
+										</select>
+										
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_down"></use></svg>
+									</div>
+
+									<input type="text" name="" value="" class="input" placeholder="Я ищу...">
+
+									<button type="submit" class="submit_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+									</button>
+								</form>
+							</div>
+
+							<div class="location">
+								<div class="current">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+									<span>Москва</span>
+								</div>
+							</div>
+
+							<div class="links">
+								<div class="favorite_link">
+									<a href="/" class="link">
+										<div class="icon">
+											<svg><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+										</div>
+										<div class="count">22</div>
+									</a>
+								</div>
+
+								<div class="views_link">
+									<a href="/" class="link">
+										<div class="icon">
+											<svg><use xlink:href="images/sprite.svg#ic_views"></use></svg>
+										</div>
+										<div class="count">12</div>
+									</a>
+								</div>
+
+								<div class="account modal_cont">
+									<button class="btn mini_modal_btn">
+										<div class="icon">
+											<svg><use xlink:href="images/sprite.svg#ic_user"></use></svg>
+										</div>
+
+										<div class="arrow">
+											<svg><use xlink:href="images/sprite.svg#ic_arrow_down"></use></svg>
+										</div>
+									</button>
+
+									<div class="mini_modal">
+										<div><a class="active">
+											<span>Мои объявления</span>
+											<span class="count">22</span>
+										</a></div>
+
+										<div><a href="/">
+											<span>Мои вакансии и резюме</span>
+											<span class="count">22</span>
+										</a></div>
+
+										<div><a href="/">
+											<span>Мои заявки и отклики</span>
+											<span class="count">22</span>
+										</a></div>
+
+										<div><a href="/">
+											<span>Профиль</span>
+										</a></div>
+
+										<div><a href="/">
+											<span>Уведомления</span>
+											<span class="count">22</span>
+										</a></div>
+
+										<div><a href="/">
+											<span>Спецразмещение</span>
+										</a></div>
+
+										<div><a href="/">
+											<span>Помощь</span>
+										</a></div>
+
+										<div class="line"></div>
+
+										<div><a href="/">
+											<span>Выход</span>
+										</a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="bottom">
+						<div class="cont row">
+							<nav class="menu row">
+								<div class="item">
+									<a class="active">Аренда</a>
+								</div>
+
+								<div class="item">
+									<a href="/">Продажа</a>
+								</div>
+
+								<div class="item">
+									<a href="/">Материалы</a>
+								</div>
+
+								<div class="item">
+									<a href="/">Оборудование</a>
+								</div>
+
+								<div class="item">
+									<a href="/">Операторы</a>
+								</div>
+							</nav>
+
+							<div class="account_links">
+								<div><a class="active">
+									<span>Мои объявления</span>
+									<span class="count">22</span>
+								</a></div>
+
+								<div><a href="/">
+									<span>Мои вакансии и резюме</span>
+									<span class="count">22</span>
+								</a></div>
+
+								<div><a href="/">
+									<span>Мои заявки и отклики</span>
+									<span class="count">22</span>
+								</a></div>
+
+								<div><a href="/">
+									<span>Профиль</span>
+								</a></div>
+
+								<div><a href="/">
+									<span>Уведомления</span>
+									<span class="count">22</span>
+								</a></div>
+
+								<div><a href="/">
+									<span>Спецразмещение</span>
+								</a></div>
+
+								<div><a href="/">
+									<span>Помощь</span>
+								</a></div>
+
+								<div class="line"></div>
+
+								<div class="border"><a href="/">
+									<span>Выход</span>
+								</a></div>
+							</div>
+
+							<div class="btns">
+								<button class="btn modal_btn" data-content="#order_modal">Оставить заявку</button>
+								<button class="btn orange">Разместить объявление</button>
+							</div>
+						</div>
+					</div>
+				</header>
+
+
+				<section class="mob_header">
+					<div class="info">
+						<div class="cont">
+							<a href="/" class="logo">
+								<img src="images/logo.svg" alt="">
+							</a>
+
+							<div class="links">
+								<div class="favorite_link">
+									<a href="/" class="link">
+										<div class="icon">
+											<svg><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+										</div>
+										<div class="count">22</div>
+									</a>
+								</div>
+
+								<div class="views_link">
+									<a href="/" class="link">
+										<div class="icon">
+											<svg><use xlink:href="images/sprite.svg#ic_views"></use></svg>
+										</div>
+										<div class="count">12</div>
+									</a>
+								</div>
+							</div>
+
+							<div class="location">
+								<div class="current">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+									<span>Москва</span>
+								</div>
+							</div>
+
+							<button class="mob_menu_btn">
+								<div class="icon"><span></span></div>
+							</button>
+						</div>
+					</div>
+
+
+					<div class="bottom">
+						<div class="cont">
+							<div class="search">
+								<form action="">
+									<div class="type">
+										<select name="">
+											<option value="1" selected>Аренда</option>
+											<option value="2">Продажа</option>
+											<option value="3">Материалы</option>
+											<option value="4">Оборудование</option>
+											<option value="5">Вакансии</option>
+											<option value="6">Резюме</option>
+											<option value="7">Компании</option>
+											<option value="8">Везде</option>
+										</select>
+										
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_down"></use></svg>
+									</div>
+
+									<input type="text" name="" value="" class="input" placeholder="Я ищу...">
+
+									<button type="submit" class="submit_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+									</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="page_head">
+					<div class="cont">
+						<div class="breadcrumbs">
+							<a href="/">Главная</a> <span class="sep">/</span>
+							<span class="current">Личный кабинет</span>
+						</div>
+
+						<h1 class="page_title mob_hide">Личный кабинет</h1>
+					</div>
+				</section>
+
+
+				<section class="content_flex block">
+					<div class="cont row">
+						<aside>
+							<div class="links">
+								<div><a href="/">
+									<span>Мои объявления</span>
+								</a></div>
+
+								<div><a href="/">
+									<span>Мои вакансии и резюме</span>
+								</a></div>
+
+								<div><a href="/">
+									<span>Мои заявки и отклики</span>
+								</a></div>
+
+								<div><a class="active">
+									<span>Профиль</span>
+								</a></div>
+
+								<div><a href="/">
+									<span>Уведомления</span>
+								</a></div>
+
+								<div><a href="/">
+									<span>Спецразмещение</span>
+								</a></div>
+
+								<div><a href="/">
+									<span>Помощь</span>
+								</a></div>
+							</div>
+
+
+							<div class="mob_links modal_cont">
+								<button class="btn mini_modal_btn">
+									<span>Мои объявления</span>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_down"></use></svg>
+								</button>
+
+								<div class="mini_modal">
+									<div><a href="/">Мои объявления</a></div>
+									<div><a href="/">Мои вакансии и резюме</a></div>
+									<div><a href="/">Мои заявки и отклики</a></div>
+									<div><a href="/">Профиль</a></div>
+									<div><a href="/">Уведомления</a></div>
+									<div><a href="/">Спецразмещение</a></div>
+									<div><a href="/">Помощь</a></div>
+								</div>
+							</div>
+						</aside>
+
+
+						<section class="content tabs_container">
+							<section class="lk_profile">
+								<div class="tabs border">
+									<div class="list">
+										<button data-content="#lk_tab1" data-level="level1" class="active">
+											<span>Информация</span>
+										</button>
+
+										<button data-content="#lk_tab2" data-level="level1">
+											<span>Настройки</span>
+										</button>
+
+										<button data-content="#lk_tab3" data-level="level1">
+											<span>Статус «Проверенная компания/Оф. диллер»</span>
+										</button>
+									</div>
+								</div>
+
+
+								<div class="tab_content level1 active" id="lk_tab1">
+									<form action="" class="form accordion">
+										<div class="section accordion_item visible">
+											<div class="head">
+												<div class="title">Персональные данные</div>
+											</div>
+
+											<div class="data">
+												<div class="line row">
+													<div class="label">Имя и фамилия</div>
+
+													<div class="field">
+														<input type="text" name="" value="Егор Сергеев" class="input">
+													</div>
+												</div>
+
+												<div class="line row">
+													<div class="label">E-mail</div>
+
+													<div class="field">
+														<input type="email" name="" value="egor@mail.ru" class="input">
+													</div>
+
+													<div class="change_btn">
+														<button class="btn">Изменить E-mail</button>
+													</div>
+												</div>
+
+												<div class="line row">
+													<div class="label">Телефон</div>
+
+													<div class="field">
+														<input type="tel" name="" value="+7 (985) 282-14-84" class="input">
+													</div>
+
+													<div class="change_btn">
+														<button class="btn">Изменить телефон</button>
+													</div>
+												</div>
+
+												<div class="line row">
+													<div class="label">Фотография</div>
+
+													<div class="field upload">
+														<input type="file" name="" id="images_upload" multiple>
+														<label for="images_upload">
+															<div class="icon">
+																<svg><use xlink:href="images/sprite.svg#ic_upload"></use></svg>
+															</div>
+															<div>Загрузить фотографии</div>
+														</label>
+													</div>
+												</div>
+											</div>
+										</div>
+
+
+										<div class="section accordion_item">
+											<div class="head">
+												<div class="title">Данные организации (для ИП и компаний)</div>
+
+												<div class="icon">
+													<svg><use xlink:href="images/sprite.svg#ic_arrow_down"></use></svg>
+												</div>
+											</div>
+
+											<div class="data">
+												<div class="line row">
+													<div class="label">Название организации или ИП *</div>
+
+													<div class="field">
+														<input type="text" name="" value="" class="input" placeholder="Введите значение">
+													</div>
+												</div>
+
+												<div class="line row">
+													<div class="label">ИНН</div>
+
+													<div class="field">
+														<input type="text" name="" value="" class="input" placeholder="Введите значение">
+													</div>
+												</div>
+
+												<div class="line row">
+													<div class="label">Адрес</div>
+
+													<div class="field">
+														<input type="text" name="" value="" class="input" placeholder="Введите адрес">
+													</div>
+
+													<div class="map">
+
+													</div>
+												</div>
+
+												<div class="line row">
+													<div class="label">Контактный телефон</div>
+
+													<div class="field">
+														<input type="tel" name="" value="" class="input" placeholder="+7 (__) ___-__-__">
+
+														<div class="matches">
+															<input type="checkbox" name="phone_matches" id="phone_matches_check">
+															<label for="phone_matches_check">Совпадает с телефоном указанным при регистрации</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="line row">
+													<div class="label">E-mail для связи</div>
+
+													<div class="field">
+														<input type="email" name="" value="" class="input" placeholder="Введите E-mail">
+
+														<div class="matches">
+															<input type="checkbox" name="email_matches" id="email_matches_check">
+															<label for="email_matches_check">Совпадает с E-mail указанным при регистрации</label>
+														</div>
+													</div>
+												</div>
+
+												<div class="line row">
+													<div class="label">Режим работы</div>
+
+													<div class="field">
+														<input type="text" name="" value="" class="input" placeholder="Введите значение">
+													</div>
+												</div>
+
+												<div class="line row">
+													<div class="label">Описание компании</div>
+
+													<div class="field">
+														<textarea name="" placeholder="Введите текст описания"></textarea>
+													</div>
+												</div>
+											</div>
+										</div>
+
+
+										<div class="submit">
+											<button type="submit" class="submit_btn">Сохранить</button>
+										</div>
+									</form>
+								</div>
+
+
+								<div class="tab_content level1" id="lk_tab2">
+									<form action="" class="form accordion">
+										<div class="section accordion_item visible">
+											<div class="head">
+												<div class="title">Сменить пароль</div>
+											</div>
+
+											<div class="data">
+												<div class="line row">
+													<div class="label">Текущий пароль</div>
+
+													<div class="field">
+														<input type="password" name="" value="" class="input" placeholder="Введите пароль">
+
+														<button type="button" class="view_btn">
+															<svg class="icon"><use xlink:href="images/sprite.svg#ic_views"></use></svg>
+															<svg class="icon"><use xlink:href="images/sprite.svg#ic_views_no"></use></svg>
+														</button>
+													</div>
+												</div>
+
+												<div class="line row">
+													<div class="label">Новый пароль</div>
+
+													<div class="field">
+														<input type="password" name="" value="" class="input" placeholder="Введите пароль">
+
+														<button type="button" class="view_btn">
+															<svg class="icon"><use xlink:href="images/sprite.svg#ic_views"></use></svg>
+															<svg class="icon"><use xlink:href="images/sprite.svg#ic_views_no"></use></svg>
+														</button>
+													</div>
+												</div>
+
+												<div class="line row">
+													<div class="label">Повторите пароль</div>
+
+													<div class="field">
+														<input type="password" name="" value="" class="input" placeholder="Введите пароль">
+
+														<button type="button" class="view_btn">
+															<svg class="icon"><use xlink:href="images/sprite.svg#ic_views"></use></svg>
+															<svg class="icon"><use xlink:href="images/sprite.svg#ic_views_no"></use></svg>
+														</button>
+													</div>
+												</div>
+
+												<div class="save_btn">
+													<button type="button" class="btn">Сменить пароль</button>
+												</div>
+											</div>
+										</div>
+
+
+										<div class="section accordion_item visible">
+											<div class="head">
+												<div class="title">Разделы кабинета</div>
+											</div>
+
+											<div class="data">
+												<div class="desc">Настройте видимость разделов личного кабинета для более удобной работы</div>
+
+												<div class="columns">
+													<div class="line checks width1of3">
+														<div class="field">
+															<input type="checkbox" name="sections" id="sections_check1" checked>
+															<label for="sections_check1"><b>Мои объявления</b></label>
+
+															<div class="sub_checks">
+																<div class="field">
+																	<input type="checkbox" name="subscribe" id="sections_check1_1" checked>
+																	<label for="sections_check1_1">Аренда</label>
+																</div>
+
+																<div class="field">
+																	<input type="checkbox" name="subscribe" id="sections_check1_2" checked>
+																	<label for="sections_check1_2">Продажа</label>
+																</div>
+
+																<div class="field">
+																	<input type="checkbox" name="subscribe" id="sections_check1_3" checked>
+																	<label for="sections_check1_3">Материалы</label>
+																</div>
+
+																<div class="field">
+																	<input type="checkbox" name="subscribe" id="sections_check1_4" checked>
+																	<label for="sections_check1_4">Оборудование</label>
+																</div>
+															</div>
+														</div>
+													</div>
+
+													<div class="line checks width1of3">
+														<div class="field">
+															<input type="checkbox" name="sections" id="sections_check2" checked>
+															<label for="sections_check2"><b>Мои вакансии и резюме</b></label>
+
+															<div class="sub_checks">
+																<div class="field">
+																	<input type="checkbox" name="subscribe" id="sections_check2_1" checked>
+																	<label for="sections_check2_1">Вакансии</label>
+																</div>
+
+																<div class="field">
+																	<input type="checkbox" name="subscribe" id="sections_check2_2" checked>
+																	<label for="sections_check2_2">Резюме</label>
+																</div>
+															</div>
+														</div>
+													</div>
+
+													<div class="line checks width1of3 no_margin">
+														<div class="field">
+															<input type="checkbox" name="sections" id="sections_check3" checked>
+															<label for="sections_check3"><b>Мои заявки и отклики</b></label>
+
+															<div class="sub_checks">
+																<div class="field">
+																	<input type="checkbox" name="subscribe" id="sections_check3_1" checked>
+																	<label for="sections_check3_1">Аренда</label>
+																</div>
+
+																<div class="field">
+																	<input type="checkbox" name="subscribe" id="sections_check3_2" checked>
+																	<label for="sections_check3_2">Продажа</label>
+																</div>
+
+																<div class="field">
+																	<input type="checkbox" name="subscribe" id="sections_check3_3" checked>
+																	<label for="sections_check3_3">Материалы</label>
+																</div>
+
+																<div class="field">
+																	<input type="checkbox" name="subscribe" id="sections_check3_4" checked>
+																	<label for="sections_check3_4">Оборудование</label>
+																</div>
+
+																<div class="field">
+																	<input type="checkbox" name="subscribe" id="sections_check3_5" checked>
+																	<label for="sections_check3_5">Вакансии</label>
+																</div>
+
+																<div class="field">
+																	<input type="checkbox" name="subscribe" id="sections_check3_6" checked>
+																	<label for="sections_check3_6">Резюме</label>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+
+										<div class="section accordion_item visible">
+											<div class="head">
+												<div class="title">Управление рассылкой</div>
+											</div>
+
+											<div class="data">
+												<div class="desc big_w">Выберите, какие уведомления присылать на Ваш E-mail, указанный при регистрации</div>
+
+												<div class="line checks">
+													<div class="field">
+														<input type="checkbox" name="subscribe" id="subscribe_check1" checked>
+														<label for="subscribe_check1"><b>Заявки на мои объявления</b></label>
+													</div>
+
+													<div class="field">
+														<input type="checkbox" name="subscribe" id="subscribe_check2" checked>
+														<label for="subscribe_check2"><b>Статус моих заявок и откликов на другие объявления</b></label>
+													</div>
+
+													<div class="field">
+														<input type="checkbox" name="subscribe" id="subscribe_check3">
+														<label for="subscribe_check3"><b>Информацию о новых объявлениях в категориях</b></label>
+
+														<div class="sub_checks">
+															<div class="field">
+																<input type="checkbox" name="subscribe" id="subscribe_check3_1">
+																<label for="subscribe_check3_1">Аренда</label>
+															</div>
+
+															<div class="field">
+																<input type="checkbox" name="subscribe" id="subscribe_check3_2">
+																<label for="subscribe_check3_2">Продажа</label>
+															</div>
+
+															<div class="field">
+																<input type="checkbox" name="subscribe" id="subscribe_check3_3">
+																<label for="subscribe_check3_3">Материалы</label>
+															</div>
+
+															<div class="field">
+																<input type="checkbox" name="subscribe" id="subscribe_check3_4">
+																<label for="subscribe_check3_4">Оборудование</label>
+															</div>
+
+															<div class="field">
+																<input type="checkbox" name="subscribe" id="subscribe_check3_5">
+																<label for="subscribe_check3_5">Вакансии</label>
+															</div>
+
+															<div class="field">
+																<input type="checkbox" name="subscribe" id="subscribe_check3_6">
+																<label for="subscribe_check3_6">Резюме</label>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+
+										<div class="section accordion_item">
+											<div class="head">
+												<div class="title">Получать уведомления в Telegram</div>
+
+												<div class="icon">
+													<svg><use xlink:href="images/sprite.svg#ic_arrow_down"></use></svg>
+												</div>
+											</div>
+
+											<div class="data">
+
+											</div>
+										</div>
+
+
+										<div class="section accordion_item">
+											<div class="head">
+												<div class="title">Удаление профиля</div>
+
+												<div class="icon">
+													<svg><use xlink:href="images/sprite.svg#ic_arrow_down"></use></svg>
+												</div>
+											</div>
+
+											<div class="data">
+												<div class="desc big_w">Выберите, какие уведомления присылать на Ваш E-mail, указанный при регистрации</div>
+
+												<div class="profile_delete_btn">
+													<button type="button" class="btn modal_btn" data-content="#profile_delete_modal">Удалить профиль</button>
+												</div>
+											</div>
+										</div>
+									</form>
+								</div>
+
+
+								<div class="tab_content level1" id="lk_tab3">
+
+								</div>
+							</section>
+						</section>
+					</div>
+				</section>
+			</div>
+
+
+			<footer>
+				<div class="cont row">
+					<div class="col_left">
+						<div class="logo">
+							<img src="images/logo.svg" alt="">
+						</div>
+
+						<div class="desc">Сервис по подбору спецтехники, материалов, оборудования и операторов</div>
+
+						<div class="copyright">&copy;2021. СпецПортал. Все права защищены</div>
+					</div>
+
+
+					<div class="menu">
+						<div class="col">
+							<div><a href="/">Аренда спецтехники</a></div>
+							<div><a href="/">Продажа спецтехники</a></div>
+							<div><a href="/">Материалы</a></div>
+							<div><a href="/">Оборудование для спецтехники</a></div>
+							<div><a href="/">Операторы спецтехники</a></div>
+							<div><a href="/">Компании</a></div>
+						</div>
+
+						<div class="col">
+							<div><a href="/">О сервисе</a></div>
+							<div><a href="/">Блог</a></div>
+							<div><a href="/">Контакты</a></div>
+							<div><a href="/">
+								<span>Спецразмещение</span>
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_star"></use></svg>
+							</a></div>
+						</div>
+					</div>
+
+
+					<div class="col_right">
+						<div class="btns">
+							<button class="btn modal_btn" data-content="#order_modal">Оставить заявку</button>
+							<button class="btn orange">Разместить объявление</button>
+						</div>
+
+						<div class="links">
+							<div><a href="/">Политики конфиденциальности</a></div>
+							<div><a href="/">Пользовательское соглашение</a></div>
+							<div><a href="/">Публичная оферта</a></div>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+
+			<div class="overlay"></div>
+		</div>
+
+
+		<div class="supports_error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+
+		<section class="modal" id="order_modal">
+			<div class="modal_title">Заявка на аренду мини-экскаватора Hitachi ZX50R</div>
+
+			<div class="modal_desc">Арендодатель получит вашу заявку и свяжется с вами</div>
+
+			<div class="modal_data">
+				<form action="" class="form">
+					<div class="line">
+						<div class="field">
+							<input type="text" name="" value="" class="input" placeholder="Имя">
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<input type="tel" name="" value="" class="input" placeholder="Телефон">
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<input type="email" name="" value="" class="input" placeholder="E-mail">
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<input type="text" name="" value="" class="input" placeholder="Дата начала аренды">
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<textarea name="" placeholder="Описание заявки"></textarea>
+						</div>
+					</div>
+
+					<div class="agree">
+						<input type="checkbox" name="agree" id="order_agree_check" checked>
+						<label for="order_agree_check">
+							Согласен на обработку персональных данных в соответствии с <a href="/" target="_blank">пользовательским соглашением</a>
+						</label>
+					</div>
+
+					<div class="submit">
+						<button type="submit" class="submit_btn">Отправить заявку</button>
+					</div>
+				</form>
+
+				<div class="links">
+					<div><a href="/">Создать аккаунт и отправить заявку</a></div>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="modal" id="order2_modal">
+			<div class="modal_title">Заявка на аренду мини-экскаватора Hitachi ZX50R</div>
+
+			<div class="modal_desc">Арендодатель получит вашу заявку и свяжется с вами</div>
+
+			<div class="modal_data">
+				<form action="" class="form">
+					<div class="line">
+						<div class="field">
+							<input type="text" name="" value="" class="input" placeholder="Дата начала аренды">
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<textarea name="" placeholder="Описание заявки"></textarea>
+						</div>
+					</div>
+
+					<div class="submit">
+						<button type="submit" class="submit_btn">Отправить заявку</button>
+					</div>
+				</form>
+			</div>
+		</section>
+
+
+		<section class="modal" id="region_modal">
+			<div class="modal_title">Регион поиска</div>
+
+			<div class="modal_data">
+				<div class="selected">
+					<div class="title">Выбранные регионы</div>
+
+					<div class="vals">
+						<button>
+							<span>москва</span>
+							<span class="icon"></span>
+						</button>
+
+						<button>
+							<span>московская область</span>
+							<span class="icon"></span>
+						</button>
+					</div>
+				</div>
+
+				<div class="data">
+					<div class="title">Выберите регион(ы) для поиска</div>
+
+					<div class="search">
+						<form action="">
+							<input type="text" name="" value="" class="input" placeholder="Начните вводить название города для поиска">
+						</form>
+					</div>
+
+					<div class="quike_list">
+						<div><button>Москва</button></div>
+						<div><button>Санкт-Петербург</button></div>
+						<div><button>Воронеж</button></div>
+						<div><button>Волгоград</button></div>
+						<div><button>Ростов-на-Дону</button></div>
+						<div><button>Казань</button></div>
+						<div><button>Нижний Новгород</button></div>
+						<div><button>Самара</button></div>
+						<div><button>Пермь</button></div>
+						<div><button>Уфа</button></div>
+						<div><button>Екатеринбург</button></div>
+						<div><button>Челябинск</button></div>
+						<div><button>Красноярск</button></div>
+						<div><button>Новосибирск</button></div>
+						<div><button>Омск</button></div>
+					</div>
+
+					<div class="lists">
+						<div class="list">
+							<div>
+								<div class="name">Алтайский край</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Амурская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Архангельская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Астраханская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Белгородская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Брянская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Владимирская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Волгоградская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Алтайский край</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Амурская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Архангельская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Астраханская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Белгородская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Брянская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Владимирская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Волгоградская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+						</div>
+
+
+						<div class="list">
+							<div>
+								<div class="name">Алтайский край</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Амурская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Архангельская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Астраханская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Белгородская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Брянская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Владимирская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Волгоградская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Алтайский край</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Амурская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Архангельская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Астраханская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Белгородская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Брянская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Владимирская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+
+							<div>
+								<div class="name">Волгоградская область</div>
+								<button class="add_btn">Добавить</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="modal" id="profile_delete_modal">
+			<div class="modal_title">Вы уверенны, что хотите удалить профиль навсегда?</div>
+
+			<div class="modal_data">
+				<div class="btns">
+					<button class="btn yes_btn">Удалить</button>
+					<button class="btn close_btn">Отмена</button>
+				</div>
+			</div>
+		</section>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/lozad.min.js"></script>
+		<script src="js/swiper-bundle.min.js"></script>
+		<script src="js/fancybox.min.js"></script>
+		<script src="js/inputmask.min.js"></script>
+		<script src="js/nice-select.js"></script>
+		<script src="js/sticky-kit.min.js"></script>
+		<script src="js/select2.full.min.js"></script>
+		<script src="js/moment.min.js"></script>
+		<script src="js/daterangepicker.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>
